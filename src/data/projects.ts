@@ -4,7 +4,7 @@ export const projectsData: ProjectItem[] = [
   // СТРАНИЦА 1
   {
     id: 1,
-    category: "",
+    category: "E-commerce & AI",
     title: "Реинжиниринг и кратный рост продаж для ритейлера бытовой техники",
     description: "Глубокая оптимизация E-commerce платформы: от аудита кода до AI-продаж.",
     fullDescription: `
@@ -43,7 +43,7 @@ export const projectsData: ProjectItem[] = [
   },
   {
     id: 2,
-    category: "",
+    category: "PropTech & Ecosystems",
     title: "Цифровая экосистема девелопера полного цикла",
     description: "От первого клика в каталоге до торжественной выдачи ключей в одном приложении.",
     fullDescription: `

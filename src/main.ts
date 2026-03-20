@@ -5,7 +5,6 @@ const getItemsPerPage = () => window.innerWidth <= 480 ? 4 : 8;
 
 let ITEMS_PER_PAGE = getItemsPerPage();
 let currentPage = 0;
-let scrollY = 0;
 
 const container = document.getElementById('projects-container') as HTMLElement;
 const dotsContainer = document.getElementById('pag-dots') as HTMLElement;
@@ -23,40 +22,14 @@ const modalClose = modal.querySelector('.modal__close');
 const modalOverlay = modal.querySelector('.modal__overlay');
 
 const toggleBodyScroll = (isFixed: boolean) => {
-  const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
   const body = document.body;
 
   if (isFixed) {
-    // Сохраняем текущую позицию, чтобы не скроллило вверх (актуально для iOS)
-    body.dataset.scrollY = window.scrollY.toString();
-
-    body.style.overflow = 'hidden';
-    body.style.paddingRight = `${scrollBarWidth}px`; // Компенсация исчезнувшего скролла
-
-    // Специфично для мобилок: фиксируем позицию
-    if (window.innerWidth <= 768) {
-      body.style.position = 'fixed';
-      body.style.top = `-${body.dataset.scrollY}px`;
-      body.style.width = '100%';
-    }
+    // Блокируем скролл страницы
+    body.classList.add('modal-open');
   } else {
-    if (window.innerWidth <= 768) {
-      // Сначала восстанавливаем скролл, пока ещё position: fixed
-      const savedScroll = parseInt(body.dataset.scrollY || '0');
-      window.scrollTo(0, savedScroll);
-      
-      // Даем браузеру применить скролл, потом убираем fixed
-      requestAnimationFrame(() => {
-        body.style.position = '';
-        body.style.top = '';
-        body.style.width = '';
-        body.style.overflow = '';
-        body.style.paddingRight = '';
-      });
-    } else {
-      body.style.overflow = '';
-      body.style.paddingRight = '';
-    }
+    // Разблокируем скролл
+    body.classList.remove('modal-open');
   }
 };
 
@@ -72,10 +45,10 @@ function openProjectDetails(projectId: number) {
 
   if (title) title.innerText = project.title;
   if (img) img.src = project.image;
-  
+
   // Используем полное описание из твоего интерфейса
   if (desc) {
-    // Проверяем: если fullDescription существует и не пустой — рендерим HTML, 
+    // Проверяем: если fullDescription существует и не пустой — рендерим HTML,
     // иначе выводим обычный description как обычный текст
     if (project.fullDescription && project.fullDescription.trim() !== "") {
       desc.innerHTML = project.fullDescription;
@@ -88,9 +61,21 @@ function openProjectDetails(projectId: number) {
   if (featuresList) featuresList.innerHTML = '';
 
   modal.classList.add('active');
-  // Для мобилок можно добавить небольшой класс на body, чтобы зафиксировать фон
   toggleBodyScroll(true);
-  document.body.classList.add('modal-open');
+  
+  // Сбрасываем скролл ПОСЛЕ показа модалки (иначе не сработает)
+  // На десктопе скроллится .modal__info-side, на мобильных — .modal__body
+  requestAnimationFrame(() => {
+    const infoSide = modal.querySelector('.modal__info-side');
+    const modalBody = modal.querySelector('.modal__body');
+    
+    if (infoSide) {
+      infoSide.scrollTop = 0;
+    }
+    if (modalBody) {
+      modalBody.scrollTop = 0;
+    }
+  });
 }
 
 // Закрытие
@@ -193,24 +178,17 @@ if (nextBtn) nextBtn.onclick = () => {
 // --- ЛОГИКА МОБИЛЬНОГО МЕНЮ (FIXED VERSION) ---
 
 const openMobileMenu = () => {
-  // Просто блокируем прокрутку
-  document.body.style.overflow = 'hidden';
-  document.body.style.touchAction = 'none'; // Запрещает свайпы мимо меню
-  
+  // Блокируем прокрутку
+  toggleBodyScroll(true);
   menu?.classList.add('active');
   document.body.classList.add('menu-open');
 };
 
 const closeMobileMenu = () => {
   // Возвращаем как было
-  document.body.style.overflow = '';
-  document.body.style.touchAction = '';
-  
+  toggleBodyScroll(false);
   menu?.classList.remove('active');
   document.body.classList.remove('menu-open');
-  
-  // УДАЛИТЕ window.scrollTo(0, scrollY) и document.body.style.top = '';
-  // Они больше не нужны, так как страница никуда не уходила
 };
 
 openBtn?.addEventListener('click', openMobileMenu);
