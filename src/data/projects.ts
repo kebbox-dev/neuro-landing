@@ -39,7 +39,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 2,
@@ -85,7 +85,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 3,
@@ -129,7 +129,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 4,
@@ -173,7 +173,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 5,
@@ -212,7 +212,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 6,
@@ -250,7 +250,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 7,
@@ -289,7 +289,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 8,
@@ -336,7 +336,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
 
   // СТРАНИЦА 2
@@ -386,7 +386,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 10,
@@ -431,7 +431,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 11,
@@ -476,7 +476,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 12,
@@ -521,7 +521,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 13,
@@ -566,7 +566,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 14,
@@ -611,7 +611,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 15,
@@ -656,7 +656,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 16,
@@ -701,7 +701,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 17,
@@ -746,7 +746,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 18,
@@ -791,7 +791,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
   id: 19,
@@ -836,7 +836,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-  image: "/projects/project-1.jpg"
+  image: "/neuro-landing/projects/project-1.jpg"
 },
 {
   id: 20,
@@ -881,7 +881,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-  image: "/projects/project-1.jpg"
+  image: "/neuro-landing/projects/project-1.jpg"
 },
 {
   id: 21,
@@ -928,7 +928,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-  image: "/projects/project-1.jpg"
+  image: "/neuro-landing/projects/project-1.jpg"
 },
 {
   id: 22,
@@ -977,7 +977,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-  image: "/projects/project-1.jpg"
+  image: "/neuro-landing/projects/project-1.jpg"
 },
 {
   id: 23,
@@ -1025,7 +1025,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-  image: "/projects/project-1.jpg"
+  image: "/neuro-landing/projects/project-1.jpg"
 },
 {
   "id": 24,
@@ -1073,7 +1073,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-  "image": "/projects/project-1.jpg"
+  "image": "/neuro-landing/projects/project-1.jpg"
 },
 {
   "id": 25,
@@ -1122,7 +1122,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-  "image": "/projects/project-1.jpg"
+  "image": "/neuro-landing/projects/project-1.jpg"
 },
 {
   "id": 26,
@@ -1171,6 +1171,6 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-  "image": "/projects/project-1.jpg"
+  "image": "/neuro-landing/projects/project-1.jpg"
 }
 ];
