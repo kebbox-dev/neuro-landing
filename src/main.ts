@@ -110,13 +110,15 @@ function renderProjects(page: number) {
     pageItems.forEach(item => {
       const cardHTML = `
         <div class="project-card" style="cursor: pointer" onclick="openProjectDetails(${item.id})">
-          <div class="project-card__image-wrapper">
-            <img src="${item.image}" alt="${item.title}">
-          </div>
-          <div class="project-card__info">
-            <div class="project-card__text">
-              <span class="project-card__category">${item.category}:</span> 
-              ${item.title}
+          <div class="project-card__inner">
+            <div class="project-card__image-wrapper">
+              <img src="${item.image}" alt="${item.title}">
+            </div>
+            <div class="project-card__info">
+              <div class="project-card__text">
+                <span class="project-card__category">${item.category}:</span>
+                ${item.title}
+              </div>
             </div>
           </div>
         </div>

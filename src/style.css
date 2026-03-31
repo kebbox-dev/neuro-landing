@@ -430,8 +430,16 @@ body.menu-open .mobile-menu {
   align-items: center;
 }
 
-.project-card__image-wrapper {
+/* Новый внутренний контейнер для выравнивания контента */
+.project-card__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Выравнивание по левому краю */
   width: 90%;
+}
+
+.project-card__image-wrapper {
+  width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 30px;
   overflow: hidden;
@@ -462,7 +470,7 @@ body.menu-open .mobile-menu {
 .project-card__info {
   font-family: 'Inter', sans-serif;
   display: flex;
-
+  width: 100%;
 }
 
 .project-card__category {
@@ -472,11 +480,11 @@ body.menu-open .mobile-menu {
 }
 
 .project-card__text {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
   color: #FFFFFF;
   opacity: 0.9;
-  width: 90%;
+  width: 100%;
 }
 
 /* ПАГИНАЦИЯ */
@@ -776,7 +784,11 @@ body.menu-open .mobile-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Центрируем текст под картинкой */
+  }
+
+  .project-card__inner {
+    width: 100% !important;
+    align-items: flex-start !important; /* На мобильном тоже по левому краю */
   }
 
 .project-card__image-wrapper {
@@ -788,21 +800,20 @@ body.menu-open .mobile-menu {
 
   /* 4. Немного уменьшаем текст, чтобы он не разъезжался в узкой колонке */
   .project-card__text {
-    font-size: 14px !important;
+    font-size: 16px !important;
     width: 100% !important;
     line-height: 1.4; /* Настроим интервал для читаемости */
-    
+
     /* Ограничение в 3 строки */
     display: -webkit-box;
     line-clamp: 3;
     -webkit-line-clamp: 3; /* Число строк */
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    
+
     /* Чтобы текст не прыгал, если строк меньше 3, можно зафиксировать высоту */
-    min-height: 50px; 
-    text-align: center;
+    min-height: 50px;
   }
 
   /* Центрируем и увеличиваем кнопки пагинации для удобства нажатия пальцем */
