@@ -29,7 +29,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:2,category:`PropTech & Ecosystems`,title:`Цифровая экосистема девелопера полного цикла`,description:`От первого клика в каталоге до торжественной выдачи ключей в одном приложении.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:2,category:`PropTech & Ecosystems`,title:`Цифровая экосистема девелопера полного цикла`,description:`От первого клика в каталоге до торжественной выдачи ключей в одном приложении.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Комплексная цифровизация процесса продажи и передачи недвижимости, направленная на устранение бюрократических барьеров и повышение лояльности агентской сети.</p>
       
@@ -67,7 +67,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:3,category:`Business Intelligence`,title:`Интеллектуальные дашборды`,description:`Управление миллиардными активами девелопера на основе данных в реальном времени.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:3,category:`Business Intelligence`,title:`Интеллектуальные дашборды`,description:`Управление миллиардными активами девелопера на основе данных в реальном времени.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Создание единого «центра управления» бизнесом, который объединяет разрозненные данные из маркетинга, продаж и HR для принятия стратегических решений.</p>
       
@@ -103,7 +103,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:4,category:`FinTech`,title:`Инвестиционный модуль для анализа объектов`,description:`Математический фундамент для привлечения инвестиционного капитала.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:4,category:`FinTech`,title:`Инвестиционный модуль для анализа объектов`,description:`Математический фундамент для привлечения инвестиционного капитала.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка высокотехнологичного аналитического инструмента, переводящего принятие инвестиционных решений из «ручного режима» в автоматизированную систему с высокой степенью прозрачности данных.</p>
       
@@ -139,7 +139,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:5,category:`AI Communications`,title:`Корпоративный мессенджер с AI-переводчиком`,description:`Защищенная платформа для коммуникаций без языковых барьеров.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:5,category:`AI Communications`,title:`Корпоративный мессенджер с AI-переводчиком`,description:`Защищенная платформа для коммуникаций без языковых барьеров.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка полноценного мессенджера (iOS, Android, Web), объединяющего классический чат, видеозвонки в HD-качестве и встроенный нейросетевой движок для мгновенного перевода речи и текста.</p>
       
@@ -170,7 +170,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:6,category:`Logistics / E-commerce`,title:`Интеллектуальный агрегатор доставки`,description:`Единое окно для управления отгрузками через разные службы (СДЭК, Почта, Boxberry и др.)`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:6,category:`Logistics / E-commerce`,title:`Интеллектуальный агрегатор доставки`,description:`Единое окно для управления отгрузками через разные службы (СДЭК, Почта, Boxberry и др.)`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка модуля, который выбирает самый выгодный и быстрый способ доставки для каждой посылки. Решение, доступное обычно только крупным агрегаторам, адаптировано для частного интернет-магазина.</p>
       
@@ -200,7 +200,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:7,category:`FSM / Cloud Platform`,title:`Сервис автоматизации выездного обслуживания`,description:`Облачная платформа для управления выездными мастерами и курьерами.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:7,category:`FSM / Cloud Platform`,title:`Сервис автоматизации выездного обслуживания`,description:`Облачная платформа для управления выездными мастерами и курьерами.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка системы «под ключ» для компаний, чьи сотрудники работают на выезде. Мы заменили бумажные журналы и чаты в мессенджерах на единое цифровое пространство.</p>
       
@@ -231,7 +231,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:8,category:`GovTech / Medical Tourism`,title:`Федеральная платформа «Russia Med Travel»`,description:`Официальный портал медицинского туризма в России (проект Минздрава РФ).`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:8,category:`GovTech / Medical Tourism`,title:`Федеральная платформа «Russia Med Travel»`,description:`Официальный портал медицинского туризма в России (проект Минздрава РФ).`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка ключевого информационного узла в рамках федерального проекта. Платформа является «единым окном» для иностранных граждан, желающих получить высокотехнологичную помощь в России.</p>
       
@@ -270,7 +270,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:9,category:`Web3 / Blockchain`,title:`Web3-экосистема для экономики стриминга`,description:`Собственный блокчейн и нативная криптовалюта: Content-to-Earn в реальном времени.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:9,category:`Web3 / Blockchain`,title:`Web3-экосистема для экономики стриминга`,description:`Собственный блокчейн и нативная криптовалюта: Content-to-Earn в реальном времени.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка независимой блокчейн-сети с нуля и запуск инновационной криптовалюты для высоконагруженной индустрии стриминга. Создание инфраструктуры, где каждое взаимодействие «зритель-стример» фиксируется как транзакция.</p>
       
@@ -310,7 +310,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:10,category:`Industrial IoT / ERP`,title:`Система адаптивного производства «Грайн»`,description:`Интеллектуальное планирование мощностей, основанное на реальном рыночном спросе.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:10,category:`Industrial IoT / ERP`,title:`Система адаптивного производства «Грайн»`,description:`Интеллектуальное планирование мощностей, основанное на реальном рыночном спросе.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка программного комплекса для производственных предприятий, реализующего философию «вытягивающего производства» (Pull-system). Система управляет мощностями в зависимости от динамики заказов и предиктивных моделей.</p>
       
@@ -347,7 +347,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:11,category:`Industrial CRM / ERP`,title:`Промышленный агрегатор «Беринг»`,description:`Комплексная CRM-экосистема для управления полным циклом производства.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:11,category:`Industrial CRM / ERP`,title:`Промышленный агрегатор «Беринг»`,description:`Комплексная CRM-экосистема для управления полным циклом производства.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Интеллектуальная система управления взаимоотношениями с клиентами, перепроектированная под нужды сложного производственного цикла. Мы объединили фронт-офис (продажи) и бэк-офис (производство) в единый цифровой поток данных.</p>
       
@@ -384,7 +384,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:12,category:`Industrial IoT / Manufacturing`,title:`Мебельный холдинг — Автоматизация Mass Customization`,description:`Сквозная цифровая система: от визуального конфигуратора до станков с ЧПУ.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:12,category:`Industrial IoT / Manufacturing`,title:`Мебельный холдинг — Автоматизация Mass Customization`,description:`Сквозная цифровая система: от визуального конфигуратора до станков с ЧПУ.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка высокотехнологичного комплекса для мебельного производства по модели Mass Customization. Система автоматизирует путь заказа от первого клика в браузере до формирования управляющих программ для промышленного оборудования.</p>
       
@@ -421,7 +421,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:13,category:`PropTech / GovTech`,title:`Оператор капремонта — Управление распределенными проектами`,description:`Цифровая экосистема для контроля жизненного цикла ремонта МКД.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:13,category:`PropTech / GovTech`,title:`Оператор капремонта — Управление распределенными проектами`,description:`Цифровая экосистема для контроля жизненного цикла ремонта МКД.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Масштабируемая платформа для управления сложной распределенной инфраструктурой объектов капитального ремонта. Проект решает задачу полной цифровизации госконтрактов: от дефектной ведомости до финального акта выполненных работ.</p>
       
@@ -458,7 +458,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:14,category:`GovTech / Big Data`,title:`Минцифры РБ — Система контроля региональных показателей`,description:`Аналитический «цифровой мозг» для мониторинга эффективности госуправления в реальном времени.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:14,category:`GovTech / Big Data`,title:`Минцифры РБ — Система контроля региональных показателей`,description:`Аналитический «цифровой мозг» для мониторинга эффективности госуправления в реальном времени.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка высокотехнологичного аналитического ПО для цифрового контроля ключевых показателей эффективности (KPI) в масштабах целого региона. Система выступает в роли единого центра принятия управленческих решений на высшем уровне.</p>
       
@@ -495,7 +495,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:15,category:`GovTech / Media`,title:`Платформа взаимодействия с Главой региона — «Прямая линия»`,description:`Высокотехнологичный сервис для сбора и обработки массовых обращений граждан в прямом эфире.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:15,category:`GovTech / Media`,title:`Платформа взаимодействия с Главой региона — «Прямая линия»`,description:`Высокотехнологичный сервис для сбора и обработки массовых обращений граждан в прямом эфире.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка интерактивной платформы для сбора, структурирования и фильтрации десятков тысяч обращений в рамках подготовки к масштабному прямому эфиру. Система обеспечивает бесперебойную работу при пиковых нагрузках и мгновенную передачу данных в ТВ-студию.</p>
       
@@ -532,7 +532,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:16,category:`GovTech / Data Analytics`,title:`ЦУР (Центр управления регионом) — Агрегатор инцидентов`,description:`Система мониторинга и оперативного реагирования на обращения граждан в цифровом пространстве.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:16,category:`GovTech / Data Analytics`,title:`ЦУР (Центр управления регионом) — Агрегатор инцидентов`,description:`Система мониторинга и оперативного реагирования на обращения граждан в цифровом пространстве.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка аналитической платформы для обработки «цифрового следа» жителей региона. Система обеспечивает полный цикл: от автоматического сбора жалоб в социальных сетях до контроля качества ответов и решения инцидентов профильными ведомствами.</p>
       
@@ -569,7 +569,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:17,category:`Multimedia / EventTech`,title:`Интерактивные стенды (ПМЭФ и Конгресс-холлы)`,description:`Мультимедийная экосистема для демонстрации инвестиционного и экономического потенциала региона.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:17,category:`Multimedia / EventTech`,title:`Интерактивные стенды (ПМЭФ и Конгресс-холлы)`,description:`Мультимедийная экосистема для демонстрации инвестиционного и экономического потенциала региона.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка высокотехнологичного программного обеспечения для крупных сенсорных панелей и инсталляций, предназначенных для презентации региона на крупнейших федеральных форумах (ПМЭФ и др.). Проект сочетает сложную визуализацию данных с интуитивно понятным интерфейсом.</p>
       
@@ -606,7 +606,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:18,category:`Telecom / Highload`,title:`ГК «МК» — Экосистема мобильного оператора`,description:`Отказоустойчивое ядро для обслуживания 900 000+ абонентов.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:18,category:`Telecom / Highload`,title:`ГК «МК» — Экосистема мобильного оператора`,description:`Отказоустойчивое ядро для обслуживания 900 000+ абонентов.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка и поддержка высоконагруженного (Highload) программного комплекса для мобильного оператора. Система объединяет биллинговые процессы, управление абонентскими счетами и многоканальную платформу клиентской поддержки.</p>
       
@@ -643,7 +643,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:19,category:`E-commerce / Marketplace`,title:`Агро-классифайд — Экосистема прямой дистрибуции фермерских продуктов`,description:`Цифровой мост между локальными хозяйствами и конечными потребителями с системой Split Payments.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:19,category:`E-commerce / Marketplace`,title:`Агро-классифайд — Экосистема прямой дистрибуции фермерских продуктов`,description:`Цифровой мост между локальными хозяйствами и конечными потребителями с системой Split Payments.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка мобильного маркетплейса с распределенной системой платежей. Ключевая особенность проекта — прозрачность цепочки поставок и автоматические прямые взаиморасчеты с каждым производителем в рамках одного заказа.</p>
       
@@ -680,7 +680,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:20,category:`GovTech / Agriculture`,title:`Платформа управления агропромышленным кластером региона`,description:`Единая цифровая среда для мониторинга сельхозугодий и распределения субсидий.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:20,category:`GovTech / Agriculture`,title:`Платформа управления агропромышленным кластером региона`,description:`Единая цифровая среда для мониторинга сельхозугодий и распределения субсидий.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Создание региональной экосистемы, объединяющей профильные министерства, муниципальные образования и сельхозпроизводителей. Платформа автоматизирует сбор отраслевых показателей и делает процесс господдержки прозрачным и адресным.</p>
       
@@ -717,7 +717,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:21,category:`LegalTech / AI`,title:`Интеллектуальная экосистема для юристов и адвокатов`,description:`Автоматизированное рабочее место (АРМ) с ИИ-ассистентом и интеграцией с ЕСИА.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:21,category:`LegalTech / AI`,title:`Интеллектуальная экосистема для юристов и адвокатов`,description:`Автоматизированное рабочее место (АРМ) с ИИ-ассистентом и интеграцией с ЕСИА.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка закрытого профессионального портала, который берет на себя рутинные задачи юридического сообщества: от верификации личности через Госуслуги до автоматического отслеживания судебных заседаний и помощи нейросетей в подготовке документов.</p>
       
@@ -756,7 +756,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:22,category:`Highload / Logistics`,title:`Технологический аудит и оптимизация логистики Tier-1 Маркетплейса`,description:`Глубокая модернизация процессов хранения и реверсивной логистики для гиганта ритейла.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:22,category:`Highload / Logistics`,title:`Технологический аудит и оптимизация логистики Tier-1 Маркетплейса`,description:`Глубокая модернизация процессов хранения и реверсивной логистики для гиганта ритейла.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Комплексный аудит высоконагруженной системы с последующей разработкой модулей оптимизации. Основной фокус — сокращение плеча доставки и автоматизация обработки возвратов через интеллектуальные алгоритмы перераспределения остатков.</p>
       
@@ -797,7 +797,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:23,category:`FinTech / E-commerce`,title:`B2B-платформа: бонусная система взаиморасчетов`,description:`Цифровая бонусная система с интеграцией ГИС и сложным биллингом для корпоративного сектора.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:23,category:`FinTech / E-commerce`,title:`B2B-платформа: бонусная система взаиморасчетов`,description:`Цифровая бонусная система с интеграцией ГИС и сложным биллингом для корпоративного сектора.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка высоконагруженного мобильного приложения и бэкенда для корпоративного сектора. Система позволяет компаниям покупать и продавать товары/услуги, используя гибридную модель оплаты (деньги + бонусы), с автоматической верификацией контрагентов через государственные системы.</p>
       
@@ -837,7 +837,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:24,category:`B2B / FinTech`,title:`Платформа многостороннего бартера для B2B`,description:`Экосистема безденежных расчетов и взаимного обмена услугами с алгоритмом кольцевого обмена.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:24,category:`B2B / FinTech`,title:`Платформа многостороннего бартера для B2B`,description:`Экосистема безденежных расчетов и взаимного обмена услугами с алгоритмом кольцевого обмена.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка интеллектуальной системы для обмена товарами и услугами между предпринимателями без использования живых денег. Главная сложность — реализация алгоритма «кольцевого обмена», где в сделке могут участвовать 3, 5 или 10 компаний одновременно.</p>
       
@@ -877,7 +877,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:25,category:`PropTech / IoT`,title:`SkladNet — Цифровая платформа для рынка Self-Storage`,description:`Умное управление складами индивидуального хранения и кладовыми с автоматизацией доступа.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:25,category:`PropTech / IoT`,title:`SkladNet — Цифровая платформа для рынка Self-Storage`,description:`Умное управление складами индивидуального хранения и кладовыми с автоматизацией доступа.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка Fullstack-платформы для автоматизации складов хранения (Self-Storage). Проект объединяет мобильный маркетплейс и сложную инженерную часть: управление электронными замками без участия персонала.</p>
       
@@ -918,7 +918,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`},{id:26,category:`IoT / Shared Economy`,title:`ParkinGo — «Airbnb» в мире парковочных пространств`,description:`Цифровая платформа для шеринга частных и коммерческих парковок с управлением доступом через смартфон.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-1.jpg`},{id:26,category:`IoT / Shared Economy`,title:`ParkinGo — «Airbnb» в мире парковочных пространств`,description:`Цифровая платформа для шеринга частных и коммерческих парковок с управлением доступом через смартфон.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка экосистемы, которая превращает простаивающее парковочное место в актив. Это не просто мобильное приложение, а комплексное решение с управлением реальным оборудованием (шлагбаумами и воротами) через смартфон.</p>
       
@@ -959,7 +959,7 @@
         </div>
       </div>
     </div>
-  `,image:`/projects/project-1.jpg`}],t=()=>window.innerWidth<=480?4:8,n=t(),r=0,i=document.getElementById(`projects-container`),a=document.getElementById(`pag-dots`),o=document.getElementById(`prev-btn`),s=document.getElementById(`next-btn`),c=document.getElementById(`menu-open`),l=document.getElementById(`menu-close`),u=document.getElementById(`mobile-menu`),d=document.querySelector(`.meeting-btn`),f=document.getElementById(`project-modal`),p=f.querySelector(`.modal__close`),m=f.querySelector(`.modal__overlay`),h=e=>{let t=document.body;e?t.classList.add(`modal-open`):t.classList.remove(`modal-open`)};function g(t){let n=e.find(e=>e.id===t);if(!n)return;let r=document.getElementById(`modal-title`),i=document.getElementById(`modal-img`),a=document.getElementById(`modal-desc-full`),o=document.getElementById(`modal-features`);r&&(r.innerText=n.title),i&&(i.src=n.image),a&&(n.fullDescription&&n.fullDescription.trim()!==``?a.innerHTML=n.fullDescription:a.innerText=n.description),o&&(o.innerHTML=``),f.classList.add(`active`),h(!0),requestAnimationFrame(()=>{let e=f.querySelector(`.modal__info-side`),t=f.querySelector(`.modal__body`);e&&(e.scrollTop=0),t&&(t.scrollTop=0)})}var _=()=>{window.innerWidth<=768?(f.classList.add(`closing`),setTimeout(()=>{f.classList.remove(`active`),f.classList.remove(`closing`),h(!1)},300)):(f.classList.remove(`active`),h(!1))};p?.addEventListener(`click`,_),m?.addEventListener(`click`,_);function v(t){i.classList.add(`fade-out`),setTimeout(()=>{i.innerHTML=``;let r=t*n,a=r+n;e.slice(r,a).forEach(e=>{let t=`
+  `,image:`/neuro-landing/projects/project-1.jpg`}],t=()=>window.innerWidth<=480?4:8,n=t(),r=0,i=document.getElementById(`projects-container`),a=document.getElementById(`pag-dots`),o=document.getElementById(`prev-btn`),s=document.getElementById(`next-btn`),c=document.getElementById(`menu-open`),l=document.getElementById(`menu-close`),u=document.getElementById(`mobile-menu`),d=document.querySelector(`.meeting-btn`),f=document.getElementById(`project-modal`),p=f.querySelector(`.modal__close`),m=f.querySelector(`.modal__overlay`),h=e=>{let t=document.body;e?t.classList.add(`modal-open`):t.classList.remove(`modal-open`)};function g(t){let n=e.find(e=>e.id===t);if(!n)return;let r=document.getElementById(`modal-title`),i=document.getElementById(`modal-img`),a=document.getElementById(`modal-desc-full`),o=document.getElementById(`modal-features`);r&&(r.innerText=n.title),i&&(i.src=n.image),a&&(n.fullDescription&&n.fullDescription.trim()!==``?a.innerHTML=n.fullDescription:a.innerText=n.description),o&&(o.innerHTML=``),f.classList.add(`active`),h(!0),requestAnimationFrame(()=>{let e=f.querySelector(`.modal__info-side`),t=f.querySelector(`.modal__body`);e&&(e.scrollTop=0),t&&(t.scrollTop=0)})}var _=()=>{window.innerWidth<=768?(f.classList.add(`closing`),setTimeout(()=>{f.classList.remove(`active`),f.classList.remove(`closing`),h(!1)},300)):(f.classList.remove(`active`),h(!1))};p?.addEventListener(`click`,_),m?.addEventListener(`click`,_);function v(t){i.classList.add(`fade-out`),setTimeout(()=>{i.innerHTML=``;let r=t*n,a=r+n;e.slice(r,a).forEach(e=>{let t=`
         <div class="project-card" style="cursor: pointer" onclick="openProjectDetails(${e.id})">
           <div class="project-card__inner">
             <div class="project-card__image-wrapper">
