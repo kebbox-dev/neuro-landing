@@ -961,13 +961,15 @@
     </div>
   `,image:`/projects/project-1.jpg`}],t=()=>window.innerWidth<=480?4:8,n=t(),r=0,i=document.getElementById(`projects-container`),a=document.getElementById(`pag-dots`),o=document.getElementById(`prev-btn`),s=document.getElementById(`next-btn`),c=document.getElementById(`menu-open`),l=document.getElementById(`menu-close`),u=document.getElementById(`mobile-menu`),d=document.querySelector(`.meeting-btn`),f=document.getElementById(`project-modal`),p=f.querySelector(`.modal__close`),m=f.querySelector(`.modal__overlay`),h=e=>{let t=document.body;e?t.classList.add(`modal-open`):t.classList.remove(`modal-open`)};function g(t){let n=e.find(e=>e.id===t);if(!n)return;let r=document.getElementById(`modal-title`),i=document.getElementById(`modal-img`),a=document.getElementById(`modal-desc-full`),o=document.getElementById(`modal-features`);r&&(r.innerText=n.title),i&&(i.src=n.image),a&&(n.fullDescription&&n.fullDescription.trim()!==``?a.innerHTML=n.fullDescription:a.innerText=n.description),o&&(o.innerHTML=``),f.classList.add(`active`),h(!0),requestAnimationFrame(()=>{let e=f.querySelector(`.modal__info-side`),t=f.querySelector(`.modal__body`);e&&(e.scrollTop=0),t&&(t.scrollTop=0)})}var _=()=>{window.innerWidth<=768?(f.classList.add(`closing`),setTimeout(()=>{f.classList.remove(`active`),f.classList.remove(`closing`),h(!1)},300)):(f.classList.remove(`active`),h(!1))};p?.addEventListener(`click`,_),m?.addEventListener(`click`,_);function v(t){i.classList.add(`fade-out`),setTimeout(()=>{i.innerHTML=``;let r=t*n,a=r+n;e.slice(r,a).forEach(e=>{let t=`
         <div class="project-card" style="cursor: pointer" onclick="openProjectDetails(${e.id})">
-          <div class="project-card__image-wrapper">
-            <img src="${e.image}" alt="${e.title}">
-          </div>
-          <div class="project-card__info">
-            <div class="project-card__text">
-              <span class="project-card__category">${e.category}:</span> 
-              ${e.title}
+          <div class="project-card__inner">
+            <div class="project-card__image-wrapper">
+              <img src="${e.image}" alt="${e.title}">
+            </div>
+            <div class="project-card__info">
+              <div class="project-card__text">
+                <span class="project-card__category">${e.category}:</span>
+                ${e.title}
+              </div>
             </div>
           </div>
         </div>
