@@ -1,7 +1,7 @@
 import { projectsData } from './data/projects'
 
 // --- КОНСТАНТЫ И ПЕРЕМЕННЫЕ ---
-const PROJECTS_PER_ROW = 4; // 4 проекта в строке
+const getProjectsPerPage = () => window.innerWidth <= 480 ? 2 : 4;
 
 // Состояние для каждой строки
 let currentPageRow0 = 0;
@@ -108,10 +108,11 @@ modalOverlay?.addEventListener('click', closeModal);
 // Рендер проектов для строки
 function renderRow(rowElement: HTMLElement, page: number, rowOffset: number) {
   rowElement.innerHTML = '';
-  // Строка 0: проекты 0-3, 8-11, 16-19... (page*8 + rowOffset*4)
-  // Строка 1: проекты 4-7, 12-15, 20-23... (page*8 + rowOffset*4)
-  const start = page * 8 + rowOffset * PROJECTS_PER_ROW;
-  const end = start + PROJECTS_PER_ROW;
+  // На десктопе (perPage=4): Строка 0: 0-3, 8-11... | Строка 1: 4-7, 12-15...
+  // На мобиле (perPage=2): Строка 0: 0-1, 4-5... | Строка 1: 2-3, 6-7...
+  const perPage = getProjectsPerPage();
+  const start = page * (perPage * 2) + rowOffset * perPage;
+  const end = start + perPage;
   const rowProjects = projectsData.slice(start, end);
 
   rowProjects.forEach(item => {
@@ -145,10 +146,11 @@ function updateRowControls(
   currentPage: number,
   rowOffset: number
 ) {
-  // Считаем сколько проектов доступно для этой строки
-  const startForRow = rowOffset * PROJECTS_PER_ROW;
+  // Считаем сколько страниц доступно для этой строки
+  const perPage = getProjectsPerPage();
+  const startForRow = rowOffset * perPage;
   const projectsRemaining = projectsData.length - startForRow;
-  const totalPagesForRow = Math.ceil(projectsRemaining / 8);
+  const totalPagesForRow = Math.ceil(projectsRemaining / (perPage * 2));
 
   if (prevBtn) prevBtn.disabled = currentPage === 0;
   if (nextBtn) nextBtn.disabled = currentPage >= totalPagesForRow - 1;
@@ -190,9 +192,10 @@ if (prevBtnRow0) prevBtnRow0.onclick = () => {
 };
 
 if (nextBtnRow0) nextBtnRow0.onclick = () => {
-  const startForRow = 0 * PROJECTS_PER_ROW;
+  const perPage = getProjectsPerPage();
+  const startForRow = 0 * perPage;
   const projectsRemaining = projectsData.length - startForRow;
-  const totalPagesForRow = Math.ceil(projectsRemaining / 8);
+  const totalPagesForRow = Math.ceil(projectsRemaining / (perPage * 2));
   
   if (currentPageRow0 < totalPagesForRow - 1) {
     currentPageRow0++;
@@ -211,16 +214,122 @@ if (prevBtnRow1) prevBtnRow1.onclick = () => {
 };
 
 if (nextBtnRow1) nextBtnRow1.onclick = () => {
-  const startForRow = 1 * PROJECTS_PER_ROW;
+  const perPage = getProjectsPerPage();
+  const startForRow = 1 * perPage;
   const projectsRemaining = projectsData.length - startForRow;
-  const totalPagesForRow = Math.ceil(projectsRemaining / 8);
-  
+  const totalPagesForRow = Math.ceil(projectsRemaining / (perPage * 2));
+
   if (currentPageRow1 < totalPagesForRow - 1) {
     currentPageRow1++;
     renderRow(row1, currentPageRow1, 1);
     updateRowControls(dotsRow1, prevBtnRow1, nextBtnRow1, currentPageRow1, 1);
   }
 };
+
+// --- СВАЙП ДЛЯ МОБИЛЬНЫХ ---
+
+const addSwipeSupport = (
+  rowElement: HTMLElement,
+  wrapperElement: HTMLElement,
+  getCurrentPage: () => number,
+  setCurrentPage: (page: number) => void,
+  rowOffset: number
+) => {
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let isSwiping = false;
+
+  wrapperElement.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+    isSwiping = true;
+  }, { passive: true });
+
+  wrapperElement.addEventListener('touchmove', (e) => {
+    if (!isSwiping) return;
+    const diffX = Math.abs(e.touches[0].clientX - touchStartX);
+    const diffY = Math.abs(e.touches[0].clientY - touchStartY);
+    // Если горизонтальное движение сильнее вертикального — блокируем скролл
+    if (diffX > diffY && diffX > 10) {
+      e.preventDefault();
+    }
+  }, { passive: false });
+
+  wrapperElement.addEventListener('touchend', (e) => {
+    if (!isSwiping) return;
+    isSwiping = false;
+
+    const touchEndX = e.changedTouches[0].clientX;
+    const diff = touchStartX - touchEndX;
+    const threshold = 50; // Минимальное расстояние для срабатывания
+
+    if (Math.abs(diff) < threshold) return;
+
+    const perPage = getProjectsPerPage();
+    const startForRow = rowOffset * perPage;
+    const projectsRemaining = projectsData.length - startForRow;
+    const totalPagesForRow = Math.ceil(projectsRemaining / (perPage * 2));
+    const currentPage = getCurrentPage();
+
+    if (diff > 0) {
+      // Свайп влево — следующая страница
+      if (currentPage < totalPagesForRow - 1) {
+        setCurrentPage(currentPage + 1);
+        renderRow(rowElement, currentPage + 1, rowOffset);
+        updateRowControls(
+          rowOffset === 0 ? dotsRow0 : dotsRow1,
+          rowOffset === 0 ? prevBtnRow0 : prevBtnRow1,
+          rowOffset === 0 ? nextBtnRow0 : nextBtnRow1,
+          currentPage + 1,
+          rowOffset
+        );
+      }
+    } else {
+      // Свайп вправо — предыдущая страница
+      if (currentPage > 0) {
+        setCurrentPage(currentPage - 1);
+        renderRow(rowElement, currentPage - 1, rowOffset);
+        updateRowControls(
+          rowOffset === 0 ? dotsRow0 : dotsRow1,
+          rowOffset === 0 ? prevBtnRow0 : prevBtnRow1,
+          rowOffset === 0 ? nextBtnRow0 : nextBtnRow1,
+          currentPage - 1,
+          rowOffset
+        );
+      }
+    }
+  }, { passive: true });
+};
+
+addSwipeSupport(
+  row0,
+  row0.parentElement as HTMLElement,
+  () => currentPageRow0,
+  (page) => { currentPageRow0 = page; },
+  0
+);
+
+addSwipeSupport(
+  row1,
+  row1.parentElement as HTMLElement,
+  () => currentPageRow1,
+  (page) => { currentPageRow1 = page; },
+  1
+);
+
+// Перерисовка при ресайзе (смена количества колонок)
+let resizeTimeout: ReturnType<typeof setTimeout>;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(() => {
+    currentPageRow0 = 0;
+    currentPageRow1 = 0;
+    renderRow(row0, currentPageRow0, 0);
+    renderRow(row1, currentPageRow1, 1);
+    updateRowControls(dotsRow0, prevBtnRow0, nextBtnRow0, currentPageRow0, 0);
+    updateRowControls(dotsRow1, prevBtnRow1, nextBtnRow1, currentPageRow1, 1);
+  }, 200);
+});
 
 // --- ЛОГИКА МОБИЛЬНОГО МЕНЮ (FIXED VERSION) ---
 
@@ -302,58 +411,30 @@ if (contactForm) {
 
     // Показываем модальное окно успеха
     const successModal = document.getElementById('success-modal');
-    const successModalClose = successModal?.querySelector('.modal__close');
-    const successModalOverlay = successModal?.querySelector('.modal__overlay');
-
     if (successModal) {
       successModal.classList.add('active');
       document.body.classList.add('modal-open');
     }
 
-    const closeModalSuccess = () => {
-      if (successModal) {
-        successModal.classList.remove('active');
-        document.body.classList.remove('modal-open');
-      }
-    };
-
-    successModalClose?.addEventListener('click', closeModalSuccess);
-    successModalOverlay?.addEventListener('click', closeModalSuccess);
-
     contactForm.reset();
   });
 }
 
-const scrollHint = document.querySelector('.hero-scroll-hint');
+// --- ВАЛИДАЦИЯ ТЕЛЕФОНА И EMAIL (основная форма + модалка) ---
 
-scrollHint?.addEventListener('click', () => {
-  const contactSection = document.querySelector('#contacts');
-  contactSection?.scrollIntoView({ behavior: 'smooth' });
-});
-
-
-const phoneInput = document.querySelector('input[name="phone"]') as HTMLInputElement;
-
-if (phoneInput) {
-  phoneInput.addEventListener('input', (e: Event) => {
+const applyPhoneMask = (input: HTMLInputElement) => {
+  input.addEventListener('input', (e: Event) => {
     const el = e.target as HTMLInputElement;
-    let value = el.value.replace(/\D/g, ""); // Только цифры
+    let value = el.value.replace(/\D/g, "");
 
-    // ЛОГИКА ОЧИСТКИ ПРИ ВСТАВКЕ
-    // Если вставили 11 цифр (например, 7917...) и в инпуте уже была 7
-    // получается строка типа 77917... — нам нужно оставить только последние 10 цифр
     if (value.length >= 11) {
-      // Отрезаем всё, кроме последних 10 цифр
       value = value.slice(-10);
     } else if (value.startsWith('7') || value.startsWith('8')) {
-      // Если ввели меньше 11, но начали с 7 или 8 — тоже убираем префикс
       value = value.substring(1);
     }
 
-    // Ограничиваем до 10 знаков (917 406 01 63)
     value = value.substring(0, 10);
 
-    // ФОРМИРОВАНИЕ МАСКИ
     let result = "+7";
     if (value.length > 0) result += " (" + value.substring(0, 3);
     if (value.length >= 4) result += ") " + value.substring(3, 6);
@@ -363,26 +444,39 @@ if (phoneInput) {
     el.value = result;
   });
 
-  // Защита от стирания +7
-  phoneInput.addEventListener('keydown', (e: KeyboardEvent) => {
+  input.addEventListener('keydown', (e: KeyboardEvent) => {
     const el = e.target as HTMLInputElement;
     if (e.key === "Backspace" && el.value.length <= 4) {
       e.preventDefault();
     }
   });
 
-  // При фокусе, если пусто, ставим заготовку
-  phoneInput.addEventListener('focus', () => {
-    if (!phoneInput.value) phoneInput.value = "+7 (";
+  input.addEventListener('focus', () => {
+    if (!input.value) input.value = "+7 (";
   });
-}
-// Валидация Email на 200 символов (если вдруг атрибут maxlength не сработает)
-const emailInput = document.querySelector('input[name="email"]') as HTMLInputElement;
-emailInput?.addEventListener('input', () => {
-  if (emailInput.value.length > 200) {
-    emailInput.value = emailInput.value.substring(0, 200);
-  }
-});
+};
+
+const applyEmailLimit = (input: HTMLInputElement) => {
+  input.addEventListener('input', () => {
+    if (input.value.length > 200) {
+      input.value = input.value.substring(0, 200);
+    }
+  });
+};
+
+// Основная форма
+const phoneInput = document.querySelector('.contact-form input[name="phone"]') as HTMLInputElement;
+const emailInput = document.querySelector('.contact-form input[name="email"]') as HTMLInputElement;
+
+if (phoneInput) applyPhoneMask(phoneInput);
+if (emailInput) applyEmailLimit(emailInput);
+
+// Модалка
+const modalPhoneInput = document.querySelector('.contact-form-modal input[name="phone"]') as HTMLInputElement;
+const modalEmailInput = document.querySelector('.contact-form-modal input[name="email"]') as HTMLInputElement;
+
+if (modalPhoneInput) applyPhoneMask(modalPhoneInput);
+if (modalEmailInput) applyEmailLimit(modalEmailInput);
 
 const initCookieBanner = () => {
   const banner = document.getElementById('cookie-banner');
@@ -409,3 +503,144 @@ const initCookieBanner = () => {
 
 // Вызови эту функцию при инициализации приложения
 initCookieBanner();
+
+// --- МОДАЛЬНЫЕ ОКНА ФУТЕРА ---
+
+const openInfoModal = (modalId: string) => {
+  const modal = document.getElementById(modalId) as HTMLElement;
+  if (!modal) return;
+
+  modal.classList.add('active');
+  document.body.classList.add('modal-open');
+
+  // Сброс скролла
+  requestAnimationFrame(() => {
+    const modalBody = modal.querySelector('.info-modal__body');
+    if (modalBody) {
+      modalBody.scrollTop = 0;
+    }
+  });
+};
+
+const closeInfoModal = (modal: HTMLElement) => {
+  modal.classList.remove('active');
+  document.body.classList.remove('modal-open');
+};
+
+// Политика конфиденциальности
+const privacyLink = document.getElementById('privacy-link');
+const privacyModal = document.getElementById('privacy-modal');
+privacyLink?.addEventListener('click', (e) => {
+  e.preventDefault();
+  openInfoModal('privacy-modal');
+});
+
+// Условия использования
+const termsLink = document.getElementById('terms-link');
+const termsModal = document.getElementById('terms-modal');
+termsLink?.addEventListener('click', (e) => {
+  e.preventDefault();
+  openInfoModal('terms-modal');
+});
+
+// Настройки cookie — просто скрываем баннер и сбрасываем согласие
+const cookieSettingsLink = document.getElementById('cookie-settings-link');
+cookieSettingsLink?.addEventListener('click', (e) => {
+  e.preventDefault();
+  localStorage.removeItem('cookieAccepted');
+  const banner = document.getElementById('cookie-banner');
+  banner?.classList.add('active');
+});
+
+// Закрытие модальных окон футера
+[privacyModal, termsModal].forEach(modal => {
+  if (!modal) return;
+
+  const closeBtn = modal.querySelector('.modal__close');
+  const overlay = modal.querySelector('.modal__overlay');
+
+  closeBtn?.addEventListener('click', () => closeInfoModal(modal));
+  overlay?.addEventListener('click', () => closeInfoModal(modal));
+});
+
+// --- МОДАЛЬНОЕ ОКНО АНКЕТЫ (иконка телефона) ---
+
+const contactModal = document.getElementById('contact-modal') as HTMLElement;
+const phoneIcon = document.querySelector('.hero-scroll-hint');
+const contactModalClose = contactModal?.querySelector('.modal__close');
+const contactModalOverlay = contactModal?.querySelector('.modal__overlay');
+
+const openContactModal = () => {
+  if (!contactModal) return;
+  contactModal.classList.add('active');
+  document.body.classList.add('modal-open');
+
+  requestAnimationFrame(() => {
+    const body = contactModal.querySelector('.contact-modal__body');
+    if (body) body.scrollTop = 0;
+  });
+};
+
+const closeContactModal = () => {
+  if (!contactModal) return;
+  contactModal.classList.remove('active');
+  document.body.classList.remove('modal-open');
+};
+
+phoneIcon?.addEventListener('click', openContactModal);
+contactModalClose?.addEventListener('click', closeContactModal);
+contactModalOverlay?.addEventListener('click', closeContactModal);
+
+// Обработка отправки формы в модальном окне
+const contactFormModal = document.querySelector('.contact-form-modal') as HTMLFormElement;
+if (contactFormModal) {
+  contactFormModal.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(contactFormModal);
+    const data = Object.fromEntries(formData);
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phoneDigits = (data.phone as string).replace(/\D/g, '');
+
+    const inputs = contactFormModal.querySelectorAll('.form-input');
+    inputs.forEach(input => input.classList.remove('error'));
+
+    if (data.email && !emailRegex.test(data.email as string)) {
+      alert('Пожалуйста, введите корректный E-mail');
+      return;
+    }
+
+    if (phoneDigits.length < 10) {
+      alert('Номер телефона слишком короткий');
+      return;
+    }
+
+    console.log('Данные валидны, отправка:', data);
+
+    // Закрываем анкету и показываем успех
+    closeContactModal();
+
+    const successModal = document.getElementById('success-modal');
+    if (successModal) {
+      successModal.classList.add('active');
+      document.body.classList.add('modal-open');
+    }
+
+    contactFormModal.reset();
+  });
+}
+
+// Закрытие success-modal
+const successModal = document.getElementById('success-modal');
+const successModalClose = successModal?.querySelector('.modal__close');
+const successModalOverlay = successModal?.querySelector('.modal__overlay');
+
+const closeSuccessModal = () => {
+  if (!successModal) return;
+  successModal.classList.remove('active');
+  document.body.classList.remove('modal-open');
+};
+
+successModalClose?.addEventListener('click', closeSuccessModal);
+successModalOverlay?.addEventListener('click', closeSuccessModal);
