@@ -23,10 +23,10 @@
 
       <div class="case-section">
         <h3>3. Результаты в цифрах</h3>
-        <div class="stats-mini">
-          <p><span>+420%</span> рост лидогенерации</p>
-          <p><span>ТОП-1</span> в поиске по ключевым запросам</p>
-        </div>
+        <ul>
+          <li><strong>+420%</strong> рост лидогенерации</li>
+          <li><strong>ТОП-1</strong> в поиске по ключевым запросам</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:2,category:`PropTech & Ecosystems`,title:`Цифровая экосистема девелопера полного цикла`,description:`От первого клика в каталоге до торжественной выдачи ключей в одном приложении.`,fullDescription:`
@@ -61,10 +61,10 @@
 
       <div class="case-section">
         <h3>Результат</h3>
-        <div class="stats-mini">
-          <p><span>Продажи 24/7</span> Бронирование и оплата даже ночью без участия менеджера.</p>
-          <p><span>Лояльность</span> Застройщик становится приоритетным партнером для агентов.</p>
-        </div>
+        <ul>
+          <li><strong>Продажи 24/7</strong> Бронирование и оплата даже ночью без участия менеджера.</li>
+          <li><strong>Лояльность</strong> Застройщик становится приоритетным партнером для агентов.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:3,category:`Business Intelligence`,title:`Интеллектуальные дашборды`,description:`Управление миллиардными активами девелопера на основе данных в реальном времени.`,fullDescription:`
@@ -97,10 +97,10 @@
 
       <div class="case-section">
         <h3>4. Результат</h3>
-        <div class="stats-mini">
-          <p><span>Управленческая уверенность</span> Принятие решений на основе точных цифр, а не интуиции.</p>
-          <p><span>Прозрачность</span> Вся компания — от стоимости клика до эффективности отдела гарантии — видна на одном экране.</p>
-        </div>
+        <ul>
+          <li><strong>Управленческая уверенность</strong> Принятие решений на основе точных цифр, а не интуиции.</li>
+          <li><strong>Прозрачность</strong> Вся компания — от стоимости клика до эффективности отдела гарантии — видна на одном экране.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:4,category:`FinTech`,title:`Инвестиционный модуль для анализа объектов`,description:`Математический фундамент для привлечения инвестиционного капитала.`,fullDescription:`
@@ -133,10 +133,10 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Скорость сделок</span> Цикл принятия решения инвестором сократился с нескольких недель до нескольких часов.</p>
-          <p><span>Доверие</span> Прозрачная аналитика делает проект высокопривлекательным для внешнего капитала.</p>
-        </div>
+        <ul>
+          <li><strong>Скорость сделок</strong> Цикл принятия решения инвестором сократился с нескольких недель до нескольких часов.</li>
+          <li><strong>Доверие</strong> Прозрачная аналитика делает проект высокопривлекательным для внешнего капитала.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:5,category:`AI Communications`,title:`Корпоративный мессенджер с AI-переводчиком`,description:`Защищенная платформа для коммуникаций без языковых барьеров.`,fullDescription:`
@@ -164,10 +164,10 @@
 
       <div class="case-section">
         <h3>3. Результат для бизнеса (Профит)</h3>
-        <div class="stats-mini">
-          <p><span>Глобальность</span> Возможность вести переговоры с партнерами по всему миру без штатных переводчиков.</p>
-          <p><span>Безопасность</span> Полное владение своими данными и исключение доступа третьих лиц к переписке.</p>
-        </div>
+        <ul>
+          <li><strong>Глобальность</strong> Возможность вести переговоры с партнерами по всему миру без штатных переводчиков.</li>
+          <li><strong>Безопасность</strong> Полное владение своими данными и исключение доступа третьих лиц к переписке.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:6,category:`Logistics / E-commerce`,title:`Интеллектуальный агрегатор доставки`,description:`Единое окно для управления отгрузками через разные службы (СДЭК, Почта, Boxberry и др.)`,fullDescription:`
@@ -194,10 +194,10 @@
 
       <div class="case-section">
         <h3>3. Результат для бизнеса (Профит)</h3>
-        <div class="stats-mini">
-          <p><span>Экономия до 15%</span> За счет автоматического выбора самого дешевого тарифа под вес и регион.</p>
-          <p><span>Сборка в 2 раза быстрее</span> Печать всех этикеток и реестров одной кнопкой.</p>
-        </div>
+        <ul>
+          <li><strong>Экономия до 15%</strong> За счет автоматического выбора самого дешевого тарифа под вес и регион.</li>
+          <li><strong>Сборка в 2 раза быстрее</strong> Печать всех этикеток и реестров одной кнопкой.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:7,category:`FSM / Cloud Platform`,title:`Сервис автоматизации выездного обслуживания`,description:`Облачная платформа для управления выездными мастерами и курьерами.`,fullDescription:`
@@ -224,11 +224,11 @@
 
       <div class="case-section">
         <h3>3. Результат для бизнеса (Профит)</h3>
-        <div class="stats-mini">
-          <p><span>+30% пропускная способность</span> Мастера успевают на большее количество вызовов за счет оптимизации маршрутов.</p>
-          <p><span>Контроль качества</span> Весь архив работ с фото хранится в облаке — споры с клиентами решаются за 1 минуту.</p>
-          <p><span>Прозрачность</span> Руководитель видит реальную выручку и эффективность каждого сотрудника в смартфоне.</p>
-        </div>
+        <ul>
+          <li><strong>+30% пропускная способность</strong> Мастера успевают на большее количество вызовов за счет оптимизации маршрутов.</li>
+          <li><strong>Контроль качества</strong> Весь архив работ с фото хранится в облаке — споры с клиентами решаются за 1 минуту.</li>
+          <li><strong>Прозрачность</strong> Руководитель видит реальную выручку и эффективность каждого сотрудника в смартфоне.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:8,category:`GovTech / Medical Tourism`,title:`Федеральная платформа «Russia Med Travel»`,description:`Официальный портал медицинского туризма в России (проект Минздрава РФ).`,fullDescription:`
@@ -264,10 +264,10 @@
 
       <div class="case-section">
         <h3>4. Социальная и бизнес-ценность</h3>
-        <div class="stats-mini">
-          <p><span>Масштаб влияния</span> Обслуживание миллионных потоков пациентов (рост до 21.7 млн чел в 2024г).</p>
-          <p><span>Нац. приоритет</span> Официальный инструмент реализации национального проекта «Здравоохранение».</p>
-        </div>
+        <ul>
+          <li><strong>Масштаб влияния</strong> Обслуживание миллионных потоков пациентов (рост до 21.7 млн чел в 2024г).</li>
+          <li><strong>Нац. приоритет</strong> Официальный инструмент реализации национального проекта «Здравоохранение».</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:9,category:`Web3 / Blockchain`,title:`Web3-экосистема для экономики стриминга`,description:`Собственный блокчейн и нативная криптовалюта: Content-to-Earn в реальном времени.`,fullDescription:`
@@ -303,11 +303,11 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Мгновенная экономика</span> Сокращение времени выплат с нескольких недель до нескольких миллисекунд.</p>
-          <p><span>Эффективность</span> Снижение транзакционных издержек до долей цента, что делает микро-донаты целесообразными.</p>
-          <p><span>Листинг-готовность</span> Проведение полного аудита смарт-контрактов и подготовка Whitepaper для выхода на биржи.</p>
-        </div>
+        <ul>
+          <li><strong>Мгновенная экономика</strong> Сокращение времени выплат с нескольких недель до нескольких миллисекунд.</li>
+          <li><strong>Эффективность</strong> Снижение транзакционных издержек до долей цента, что делает микро-донаты целесообразными.</li>
+          <li><strong>Листинг-готовность</strong> Проведение полного аудита смарт-контрактов и подготовка Whitepaper для выхода на биржи.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:10,category:`Industrial IoT / ERP`,title:`Система адаптивного производства «Грайн»`,description:`Интеллектуальное планирование мощностей, основанное на реальном рыночном спросе.`,fullDescription:`
@@ -341,10 +341,10 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Признание</span> Статус «Самое эффективное производство» в Республике Башкортостан в 2024 году.</p>
-          <p><span>Экономия</span> Существенное снижение издержек на хранение и рост оборачиваемости капитала.</p>
-        </div>
+        <ul>
+          <li><strong>Признание</strong> Статус «Самое эффективное производство» в Республике Башкортостан в 2024 году.</li>
+          <li><strong>Экономия</strong> Существенное снижение издержек на хранение и рост оборачиваемости капитала.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:11,category:`Industrial CRM / ERP`,title:`Промышленный агрегатор «Беринг»`,description:`Комплексная CRM-экосистема для управления полным циклом производства.`,fullDescription:`
@@ -378,10 +378,10 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Точность</span> Доведение соблюдения сроков отгрузки до 98%.</p>
-          <p><span>Скорость</span> Ускорение обработки первичной заявки в 2–2,5 раза за счет исключения ручных согласований.</p>
-        </div>
+        <ul>
+          <li><strong>Точность</strong> Доведение соблюдения сроков отгрузки до 98%.</li>
+          <li><strong>Скорость</strong> Ускорение обработки первичной заявки в 2–2,5 раза за счет исключения ручных согласований.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:12,category:`Industrial IoT / Manufacturing`,title:`Мебельный холдинг — Автоматизация Mass Customization`,description:`Сквозная цифровая система: от визуального конфигуратора до станков с ЧПУ.`,fullDescription:`
@@ -415,10 +415,10 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Скорость</span> Сокращение цикла производства и обработки заказа в 3 раза.</p>
-          <p><span>Точность</span> Полное исключение ошибок комплектации при передаче данных между отделами.</p>
-        </div>
+        <ul>
+          <li><strong>Скорость</strong> Сокращение цикла производства и обработки заказа в 3 раза.</li>
+          <li><strong>Точность</strong> Полное исключение ошибок комплектации при передаче данных между отделами.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:13,category:`PropTech / GovTech`,title:`Оператор капремонта — Управление распределенными проектами`,description:`Цифровая экосистема для контроля жизненного цикла ремонта МКД.`,fullDescription:`
@@ -452,10 +452,10 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Операционка</span> Полное исключение простоев бригад за счет своевременного контроля ресурсов.</p>
-          <p><span>Прозрачность</span> Круглосуточный мониторинг состояния объектов для заказчика, что радикально повысило доверие к качеству и срокам.</p>
-        </div>
+        <ul>
+          <li><strong>Операционка</strong> Полное исключение простоев бригад за счет своевременного контроля ресурсов.</li>
+          <li><strong>Прозрачность</strong> Круглосуточный мониторинг состояния объектов для заказчика, что радикально повысило доверие к качеству и срокам.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:14,category:`GovTech / Big Data`,title:`Минцифры РБ — Система контроля региональных показателей`,description:`Аналитический «цифровой мозг» для мониторинга эффективности госуправления в реальном времени.`,fullDescription:`
@@ -489,10 +489,10 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Управленческая точность</span> Переход от «отчетного» управления к принятию решений на основе живых данных.</p>
-          <p><span>Скорость реакции</span> Сокращение времени получения сводки с нескольких дней до нескольких секунд.</p>
-        </div>
+        <ul>
+          <li><strong>Управленческая точность</strong> Переход от «отчетного» управления к принятию решений на основе живых данных.</li>
+          <li><strong>Скорость реакции</strong> Сокращение времени получения сводки с нескольких дней до нескольких секунд.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:15,category:`GovTech / Media`,title:`Платформа взаимодействия с Главой региона — «Прямая линия»`,description:`Высокотехнологичный сервис для сбора и обработки массовых обращений граждан в прямом эфире.`,fullDescription:`
@@ -526,10 +526,10 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Эффективность</span> Успешная подготовка и проведение масштабной «Прямой линии» с охватом всей аудитории региона.</p>
-          <p><span>Доверие</span> Создание прямого канала коммуникации, где голос каждого жителя может быть услышан и проанализирован.</p>
-        </div>
+        <ul>
+          <li><strong>Эффективность</strong> Успешная подготовка и проведение масштабной «Прямой линии» с охватом всей аудитории региона.</li>
+          <li><strong>Доверие</strong> Создание прямого канала коммуникации, где голос каждого жителя может быть услышан и проанализирован.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:16,category:`GovTech / Data Analytics`,title:`ЦУР (Центр управления регионом) — Агрегатор инцидентов`,description:`Система мониторинга и оперативного реагирования на обращения граждан в цифровом пространстве.`,fullDescription:`
@@ -563,10 +563,10 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Оперативность</span> Время реакции на обращения граждан сократилось с нескольких дней до считанных часов.</p>
-          <p><span>Прозрачность</span> Обеспечена полная подотчетность каждого ведомства перед руководством региона.</p>
-        </div>
+        <ul>
+          <li><strong>Оперативность</strong> Время реакции на обращения граждан сократилось с нескольких дней до считанных часов.</li>
+          <li><strong>Прозрачность</strong> Обеспечена полная подотчетность каждого ведомства перед руководством региона.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:17,category:`Multimedia / EventTech`,title:`Интерактивные стенды (ПМЭФ и Конгресс-холлы)`,description:`Мультимедийная экосистема для демонстрации инвестиционного и экономического потенциала региона.`,fullDescription:`
@@ -600,10 +600,10 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Внимание</span> Резкое увеличение трафика посетителей стенда по сравнению с традиционным оформлением.</p>
-          <p><span>Капитализация имиджа</span> Укрепление статуса региона как высокотехнологичного и открытого для инноваций субъекта.</p>
-        </div>
+        <ul>
+          <li><strong>Внимание</strong> Резкое увеличение трафика посетителей стенда по сравнению с традиционным оформлением.</li>
+          <li><strong>Капитализация имиджа</strong> Укрепление статуса региона как высокотехнологичного и открытого для инноваций субъекта.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:18,category:`Telecom / Highload`,title:`ГК «МК» — Экосистема мобильного оператора`,description:`Отказоустойчивое ядро для обслуживания 900 000+ абонентов.`,fullDescription:`
@@ -637,10 +637,10 @@
 
       <div class="case-section">
         <h3>4. Результат в цифрах (Бизнес-эффект)</h3>
-        <div class="stats-mini">
-          <p><span>Масштаб</span> Обеспечена стабильная работа системы для абонентской базы свыше 900 000 пользователей.</p>
-          <p><span>Надежность</span> Минимизация времени простоя системы до критически низких показателей, что является стандартом для телеком-отрасли.</p>
-        </div>
+        <ul>
+          <li><strong>Масштаб</strong> Обеспечена стабильная работа системы для абонентской базы свыше 900 000 пользователей.</li>
+          <li><strong>Надежность</strong> Минимизация времени простоя системы до критически низких показателей, что является стандартом для телеком-отрасли.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:19,category:`E-commerce / Marketplace`,title:`Агро-классифайд — Экосистема прямой дистрибуции фермерских продуктов`,description:`Цифровой мост между локальными хозяйствами и конечными потребителями с системой Split Payments.`,fullDescription:`
@@ -674,10 +674,10 @@
 
       <div class="case-section">
         <h3>4. Социальная и бизнес-ценность</h3>
-        <div class="stats-mini">
-          <p><span>Food-безопасность</span> Покупатель точно знает происхождение каждого продукта благодаря прозрачному трекингу.</p>
-          <p><span>Масштабируемость</span> Архитектура проекта позволяет быстро запускать платформу в новых регионах, масштабируя локальные сети производителей.</p>
-        </div>
+        <ul>
+          <li><strong>Food-безопасность</strong> Покупатель точно знает происхождение каждого продукта благодаря прозрачному трекингу.</li>
+          <li><strong>Масштабируемость</strong> Архитектура проекта позволяет быстро запускать платформу в новых регионах, масштабируя локальные сети производителей.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:20,category:`GovTech / Agriculture`,title:`Платформа управления агропромышленным кластером региона`,description:`Единая цифровая среда для мониторинга сельхозугодий и распределения субсидий.`,fullDescription:`
@@ -711,10 +711,10 @@
 
       <div class="case-section">
         <h3>4. Результат для региона</h3>
-        <div class="stats-mini">
-          <p><span>Эффективность</span> Сокращение сроков сбора и обработки отраслевой отчетности в 10 раз.</p>
-          <p><span>Адресность</span> Повышение точности распределения субсидий за счет подтвержденных цифровых данных о деятельности хозяйств.</p>
-        </div>
+        <ul>
+          <li><strong>Эффективность</strong> Сокращение сроков сбора и обработки отраслевой отчетности в 10 раз.</li>
+          <li><strong>Адресность</strong> Повышение точности распределения субсидий за счет подтвержденных цифровых данных о деятельности хозяйств.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:21,category:`LegalTech / AI`,title:`Интеллектуальная экосистема для юристов и адвокатов`,description:`Автоматизированное рабочее место (АРМ) с ИИ-ассистентом и интеграцией с ЕСИА.`,fullDescription:`
@@ -750,10 +750,10 @@
 
       <div class="case-section">
         <h3>4. Бизнес-результаты</h3>
-        <div class="stats-mini">
-          <p><span>Экономия времени</span> ИИ-ассистент сокращает время на подготовку первичной документации на 50–70%.</p>
-          <p><span>Zero-Error</span> Автоматический мониторинг судов исключает риск пропуска важных заседаний.</p>
-        </div>
+        <ul>
+          <li><strong>Экономия времени</strong> ИИ-ассистент сокращает время на подготовку первичной документации на 50–70%.</li>
+          <li><strong>Zero-Error</strong> Автоматический мониторинг судов исключает риск пропуска важных заседаний.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:22,category:`Highload / Logistics`,title:`Технологический аудит и оптимизация логистики Tier-1 Маркетплейса`,description:`Глубокая модернизация процессов хранения и реверсивной логистики для гиганта ритейла.`,fullDescription:`
@@ -790,11 +790,11 @@
 
       <div class="case-section">
         <h3>4. Бизнес-результаты для Маркетплейса</h3>
-        <div class="stats-mini">
-          <p><span>Экономия</span> Снижение логистических издержек на перемещение возвратов на 20–25%.</p>
-          <p><span>Скорость</span> Ускорение обработки споров и принятия решений по возражениям в 3 раза.</p>
-          <p><span>Эффективность</span> Увеличение полезной емкости складов за счет оптимизации хранения без физического расширения.</p>
-        </div>
+        <ul>
+          <li><strong>Экономия</strong> Снижение логистических издержек на перемещение возвратов на 20–25%.</li>
+          <li><strong>Скорость</strong> Ускорение обработки споров и принятия решений по возражениям в 3 раза.</li>
+          <li><strong>Эффективность</strong> Увеличение полезной емкости складов за счет оптимизации хранения без физического расширения.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:23,category:`FinTech / E-commerce`,title:`B2B-платформа: бонусная система взаиморасчетов`,description:`Цифровая бонусная система с интеграцией ГИС и сложным биллингом для корпоративного сектора.`,fullDescription:`
@@ -830,11 +830,11 @@
 
       <div class="case-section">
         <h3>4. Бизнес-эффект и результаты</h3>
-        <div class="stats-mini">
-          <p><span>LTV (Lifetime Value) +40%</span> Компании-клиенты остаются в системе дольше, стремясь реализовать накопленный бонусный баланс.</p>
-          <p><span>Безопасная среда</span> Благодаря верификации через ЕСИА, уровень доверия внутри платформы максимален, что стимулирует крупные сделки. </p>
-          <p><span>Автоматизация маркетинга</span> Система сама «прогревает» участников, предлагая персональные условия на основе их рейтинга и истории покупок.</p>
-        </div>
+        <ul>
+          <li><strong>LTV (Lifetime Value) +40%</strong> Компании-клиенты остаются в системе дольше, стремясь реализовать накопленный бонусный баланс.</li>
+          <li><strong>Безопасная среда</strong> Благодаря верификации через ЕСИА, уровень доверия внутри платформы максимален, что стимулирует крупные сделки. </li>
+          <li><strong>Автоматизация маркетинга</strong> Система сама «прогревает» участников, предлагая персональные условия на основе их рейтинга и истории покупок.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:24,category:`B2B / FinTech`,title:`Платформа многостороннего бартера для B2B`,description:`Экосистема безденежных расчетов и взаимного обмена услугами с алгоритмом кольцевого обмена.`,fullDescription:`
@@ -870,11 +870,11 @@
 
       <div class="case-section">
         <h3>4. Бизнес-эффект для участников</h3>
-        <div class="stats-mini">
-          <p><span>Оборотные средства</span> Сохранение финансов: компании получают необходимое, не вынимая деньги из оборота.</p>
-          <p><span>Рынки сбыта</span> Расширение сети за счет реализации излишков продукции новым партнерам внутри платформы.</p>
-          <p><span>Складские расходы</span> Снижение затрат на хранение за счет быстрой оборачиваемости товаров через автоматический мэтчинг.</p>
-        </div>
+        <ul>
+          <li><strong>Оборотные средства</strong> Сохранение финансов: компании получают необходимое, не вынимая деньги из оборота.</li>
+          <li><strong>Рынки сбыта</strong> Расширение сети за счет реализации излишков продукции новым партнерам внутри платформы.</li>
+          <li><strong>Складские расходы</strong> Снижение затрат на хранение за счет быстрой оборачиваемости товаров через автоматический мэтчинг.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:25,category:`PropTech / IoT`,title:`SkladNet — Цифровая платформа для рынка Self-Storage`,description:`Умное управление складами индивидуального хранения и кладовыми с автоматизацией доступа.`,fullDescription:`
@@ -911,11 +911,11 @@
 
       <div class="case-section">
         <h3>4. Бизнес-результаты и ценность</h3>
-        <div class="stats-mini">
-          <p><span>Автономный склад</span> Формат Dark Store: возможность запуска объекта без единого сотрудника на месте.</p>
-          <p><span>Снижение OPEX</span> Операционные расходы снижаются на 40–60% за счет исключения затрат на ФОТ.</p>
-          <p><span>Безопасность</span> Прозрачный лог событий: система точно знает, кто, когда и на сколько открывал конкретную кладовую.</p>
-        </div>
+        <ul>
+          <li><strong>Автономный склад</strong> Формат Dark Store: возможность запуска объекта без единого сотрудника на месте.</li>
+          <li><strong>Снижение OPEX</strong> Операционные расходы снижаются на 40–60% за счет исключения затрат на ФОТ.</li>
+          <li><strong>Безопасность</strong> Прозрачный лог событий: система точно знает, кто, когда и на сколько открывал конкретную кладовую.</li>
+        </ul>
       </div>
     </div>
   `,image:`/neuro-landing/projects/project-1.jpg`},{id:26,category:`IoT / Shared Economy`,title:`ParkinGo — «Airbnb» в мире парковочных пространств`,description:`Цифровая платформа для шеринга частных и коммерческих парковок с управлением доступом через смартфон.`,fullDescription:`
@@ -952,25 +952,25 @@
 
       <div class="case-section">
         <h3>4. Бизнес-эффект и результаты</h3>
-        <div class="stats-mini">
-          <p><span>Монетизация простоя</span> Владельцы мест получили возможность полностью окупать содержание паркинга и зарабатывать сверху.</p>
-          <p><span>Автоматизация доступа</span> Исключение «человеческого фактора» (охранников, бумажных пропусков). Все доступы цифровые.</p>
-          <p><span>Масштабируемость</span> Архитектура системы позволяет подключать как частные места в ЖК, так и целые торговые центры или бизнес-парки.</p>
-        </div>
+        <ul>
+          <li><strong>Монетизация простоя</strong> Владельцы мест получили возможность полностью окупать содержание паркинга и зарабатывать сверху.</li>
+          <li><strong>Автоматизация доступа</strong> Исключение «человеческого фактора» (охранников, бумажных пропусков). Все доступы цифровые.</li>
+          <li><strong>Масштабируемость</strong> Архитектура системы позволяет подключать как частные места в ЖК, так и целые торговые центры или бизнес-парки.</li>
+        </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects/project-1.jpg`}],t=()=>window.innerWidth<=480?4:8,n=t(),r=0,i=document.getElementById(`projects-container`),a=document.getElementById(`pag-dots`),o=document.getElementById(`prev-btn`),s=document.getElementById(`next-btn`),c=document.getElementById(`menu-open`),l=document.getElementById(`menu-close`),u=document.getElementById(`mobile-menu`),d=document.querySelector(`.meeting-btn`),f=document.getElementById(`project-modal`),p=f.querySelector(`.modal__close`),m=f.querySelector(`.modal__overlay`),h=e=>{let t=document.body;e?t.classList.add(`modal-open`):t.classList.remove(`modal-open`)};function g(t){let n=e.find(e=>e.id===t);if(!n)return;let r=document.getElementById(`modal-title`),i=document.getElementById(`modal-img`),a=document.getElementById(`modal-desc-full`),o=document.getElementById(`modal-features`);r&&(r.innerText=n.title),i&&(i.src=n.image),a&&(n.fullDescription&&n.fullDescription.trim()!==``?a.innerHTML=n.fullDescription:a.innerText=n.description),o&&(o.innerHTML=``),f.classList.add(`active`),h(!0),requestAnimationFrame(()=>{let e=f.querySelector(`.modal__info-side`),t=f.querySelector(`.modal__body`);e&&(e.scrollTop=0),t&&(t.scrollTop=0)})}var _=()=>{window.innerWidth<=768?(f.classList.add(`closing`),setTimeout(()=>{f.classList.remove(`active`),f.classList.remove(`closing`),h(!1)},300)):(f.classList.remove(`active`),h(!1))};p?.addEventListener(`click`,_),m?.addEventListener(`click`,_);function v(t){i.classList.add(`fade-out`),setTimeout(()=>{i.innerHTML=``;let r=t*n,a=r+n;e.slice(r,a).forEach(e=>{let t=`
-        <div class="project-card" style="cursor: pointer" onclick="openProjectDetails(${e.id})">
-          <div class="project-card__inner">
-            <div class="project-card__image-wrapper">
-              <img src="${e.image}" alt="${e.title}">
-            </div>
-            <div class="project-card__info">
-              <div class="project-card__text">
-                <span class="project-card__category">${e.category}:</span>
-                ${e.title}
-              </div>
+  `,image:`/neuro-landing/projects/project-1.jpg`}],t=4,n=0,r=0,i=document.getElementById(`project-row-0`),a=document.getElementById(`pag-dots-row-0`),o=document.getElementById(`prev-btn-row-0`),s=document.getElementById(`next-btn-row-0`),c=document.getElementById(`project-row-1`),l=document.getElementById(`pag-dots-row-1`),u=document.getElementById(`prev-btn-row-1`),d=document.getElementById(`next-btn-row-1`),f=document.getElementById(`menu-open`),p=document.getElementById(`menu-close`),m=document.getElementById(`mobile-menu`),h=document.querySelector(`.meeting-btn`),g=document.getElementById(`project-modal`),_=g.querySelector(`.modal__close`),v=g.querySelector(`.modal__overlay`),y=e=>{let t=document.body;e?t.classList.add(`modal-open`):t.classList.remove(`modal-open`)};function b(t){let n=e.find(e=>e.id===t);if(!n)return;let r=document.getElementById(`modal-title`),i=document.getElementById(`modal-img`),a=document.getElementById(`modal-desc-full`),o=document.getElementById(`modal-features`);r&&(r.innerText=n.title),i&&(i.src=n.image),a&&(n.fullDescription&&n.fullDescription.trim()!==``?a.innerHTML=n.fullDescription:a.innerText=n.description),o&&(o.innerHTML=``),g.classList.add(`active`),y(!0),requestAnimationFrame(()=>{let e=g.querySelector(`.modal__info-side`),t=g.querySelector(`.modal__body`);e&&(e.scrollTop=0),t&&(t.scrollTop=0)})}var x=()=>{window.innerWidth<=768?(g.classList.add(`closing`),setTimeout(()=>{g.classList.remove(`active`),g.classList.remove(`closing`),y(!1)},300)):(g.classList.remove(`active`),y(!1))};_?.addEventListener(`click`,x),v?.addEventListener(`click`,x);function S(n,r,i){n.innerHTML=``;let a=r*8+i*t,o=a+t;e.slice(a,o).forEach(e=>{let t=`
+      <div class="project-card" style="cursor: pointer" onclick="openProjectDetails(${e.id})">
+        <div class="project-card__inner">
+          <div class="project-card__image-wrapper">
+            <img src="${e.image}" alt="${e.title}">
+          </div>
+          <div class="project-card__info">
+            <div class="project-card__text">
+              <span class="project-card__category">${e.category}:</span>
+              ${e.title}
             </div>
           </div>
         </div>
-      `;i.insertAdjacentHTML(`beforeend`,t)}),i.classList.remove(`fade-out`),y()},400)}window.openProjectDetails=g,window.addEventListener(`resize`,()=>{let e=t();e!==n&&(n=e,r=0,v(r))});function y(){let t=Math.ceil(e.length/n);if(o&&(o.disabled=r===0),s&&(s.disabled=r===t-1),a){a.innerHTML=``;for(let e=0;e<t;e++){let t=document.createElement(`div`);t.className=`dot ${e===r?`active`:``}`,t.onclick=()=>b(e),a.appendChild(t)}}}function b(e){e!==r&&(r=e,v(r))}o&&(o.onclick=()=>{r>0&&b(r-1)}),s&&(s.onclick=()=>{r<Math.ceil(e.length/n)-1&&b(r+1)});var x=()=>{h(!0),u?.classList.add(`active`),document.body.classList.add(`menu-open`)},S=()=>{h(!1),u?.classList.remove(`active`),document.body.classList.remove(`menu-open`)};c?.addEventListener(`click`,x),l?.addEventListener(`click`,S),d?.addEventListener(`click`,()=>{S(),document.getElementById(`contacts`)?.scrollIntoView({behavior:`smooth`})}),document.querySelectorAll(`a[href^="#"]`).forEach(e=>{e.addEventListener(`click`,t=>{t.preventDefault();let n=e.getAttribute(`href`);if(!n||n===`#`)return;let r=document.querySelector(n);r&&(S(),r.scrollIntoView({behavior:`smooth`}))})});var C=document.querySelector(`.contact-form`);C&&C.addEventListener(`submit`,e=>{e.preventDefault();let t=new FormData(C),n=Object.fromEntries(t),r=/^[^\s@]+@[^\s@]+\.[^\s@]+$/,i=n.phone.replace(/\D/g,``);if(C.querySelectorAll(`.form-input`).forEach(e=>e.classList.remove(`error`)),n.email&&!r.test(n.email)){alert(`Пожалуйста, введите корректный E-mail`);return}if(i.length<10){alert(`Номер телефона слишком короткий`);return}console.log(`Данные валидны, отправка:`,n);let a=C.querySelector(`.submit-btn`),o=a.innerText;a.innerText=`ОТПРАВЛЕНО`,a.style.background=`#4ade80`,setTimeout(()=>{a.innerText=o,a.style.background=`#0DFFF7`,C.reset()},3e3)}),document.querySelector(`.hero-scroll-hint`)?.addEventListener(`click`,()=>{document.querySelector(`#contacts`)?.scrollIntoView({behavior:`smooth`})});var w=document.querySelector(`input[name="phone"]`);w&&(w.addEventListener(`input`,e=>{let t=e.target,n=t.value.replace(/\D/g,``);n.length>=11?n=n.slice(-10):(n.startsWith(`7`)||n.startsWith(`8`))&&(n=n.substring(1)),n=n.substring(0,10);let r=`+7`;n.length>0&&(r+=` (`+n.substring(0,3)),n.length>=4&&(r+=`) `+n.substring(3,6)),n.length>=7&&(r+=` `+n.substring(6,8)),n.length>=9&&(r+=` `+n.substring(8,10)),t.value=r}),w.addEventListener(`keydown`,e=>{let t=e.target;e.key===`Backspace`&&t.value.length<=4&&e.preventDefault()}),w.addEventListener(`focus`,()=>{w.value||=`+7 (`}));var T=document.querySelector(`input[name="email"]`);T?.addEventListener(`input`,()=>{T.value.length>200&&(T.value=T.value.substring(0,200))}),(()=>{let e=document.getElementById(`cookie-banner`),t=document.getElementById(`cookie-accept`);!e||!t||(localStorage.getItem(`cookieAccepted`)||setTimeout(()=>{e.classList.add(`active`)},2e3),t.addEventListener(`click`,()=>{e.classList.remove(`active`),localStorage.setItem(`cookieAccepted`,`true`)}))})(),v(r);
+      </div>
+    `;n.insertAdjacentHTML(`beforeend`,t)})}window.openProjectDetails=b;function C(f,p,m,h,g){let _=g*t,v=e.length-_,y=Math.ceil(v/8);if(p&&(p.disabled=h===0),m&&(m.disabled=h>=y-1),f){f.innerHTML=``;for(let e=0;e<y;e++){let t=document.createElement(`div`);t.className=`dot ${e===h?`active`:``}`,t.onclick=()=>{g===0?(n=e,S(i,n,0),C(a,o,s,n,0)):(r=e,S(c,r,1),C(l,u,d,r,1))},f.appendChild(t)}}}S(i,n,0),S(c,r,1),C(a,o,s,n,0),C(l,u,d,r,1),o&&(o.onclick=()=>{n>0&&(n--,S(i,n,0),C(a,o,s,n,0))}),s&&(s.onclick=()=>{let r=0*t,c=e.length-r,l=Math.ceil(c/8);n<l-1&&(n++,S(i,n,0),C(a,o,s,n,0))}),u&&(u.onclick=()=>{r>0&&(r--,S(c,r,1),C(l,u,d,r,1))}),d&&(d.onclick=()=>{let n=1*t,i=e.length-n,a=Math.ceil(i/8);r<a-1&&(r++,S(c,r,1),C(l,u,d,r,1))});var w=()=>{y(!0),m?.classList.add(`active`),document.body.classList.add(`menu-open`)},T=()=>{y(!1),m?.classList.remove(`active`),document.body.classList.remove(`menu-open`)};f?.addEventListener(`click`,w),p?.addEventListener(`click`,T),h?.addEventListener(`click`,()=>{T(),document.getElementById(`contacts`)?.scrollIntoView({behavior:`smooth`})}),document.querySelectorAll(`a[href^="#"]`).forEach(e=>{e.addEventListener(`click`,t=>{t.preventDefault();let n=e.getAttribute(`href`);if(!n||n===`#`)return;let r=document.querySelector(n);r&&(T(),r.scrollIntoView({behavior:`smooth`}))})});var E=document.querySelector(`.contact-form`);E&&E.addEventListener(`submit`,e=>{e.preventDefault();let t=new FormData(E),n=Object.fromEntries(t),r=/^[^\s@]+@[^\s@]+\.[^\s@]+$/,i=n.phone.replace(/\D/g,``);if(E.querySelectorAll(`.form-input`).forEach(e=>e.classList.remove(`error`)),n.email&&!r.test(n.email)){alert(`Пожалуйста, введите корректный E-mail`);return}if(i.length<10){alert(`Номер телефона слишком короткий`);return}console.log(`Данные валидны, отправка:`,n);let a=document.getElementById(`success-modal`),o=a?.querySelector(`.modal__close`),s=a?.querySelector(`.modal__overlay`);a&&(a.classList.add(`active`),document.body.classList.add(`modal-open`));let c=()=>{a&&(a.classList.remove(`active`),document.body.classList.remove(`modal-open`))};o?.addEventListener(`click`,c),s?.addEventListener(`click`,c),E.reset()}),document.querySelector(`.hero-scroll-hint`)?.addEventListener(`click`,()=>{document.querySelector(`#contacts`)?.scrollIntoView({behavior:`smooth`})});var D=document.querySelector(`input[name="phone"]`);D&&(D.addEventListener(`input`,e=>{let t=e.target,n=t.value.replace(/\D/g,``);n.length>=11?n=n.slice(-10):(n.startsWith(`7`)||n.startsWith(`8`))&&(n=n.substring(1)),n=n.substring(0,10);let r=`+7`;n.length>0&&(r+=` (`+n.substring(0,3)),n.length>=4&&(r+=`) `+n.substring(3,6)),n.length>=7&&(r+=` `+n.substring(6,8)),n.length>=9&&(r+=` `+n.substring(8,10)),t.value=r}),D.addEventListener(`keydown`,e=>{let t=e.target;e.key===`Backspace`&&t.value.length<=4&&e.preventDefault()}),D.addEventListener(`focus`,()=>{D.value||=`+7 (`}));var O=document.querySelector(`input[name="email"]`);O?.addEventListener(`input`,()=>{O.value.length>200&&(O.value=O.value.substring(0,200))}),(()=>{let e=document.getElementById(`cookie-banner`),t=document.getElementById(`cookie-accept`);!e||!t||(localStorage.getItem(`cookieAccepted`)||setTimeout(()=>{e.classList.add(`active`)},2e3),t.addEventListener(`click`,()=>{e.classList.remove(`active`),localStorage.setItem(`cookieAccepted`,`true`)}))})();
