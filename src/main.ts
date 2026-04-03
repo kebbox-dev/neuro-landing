@@ -409,6 +409,3 @@ const initCookieBanner = () => {
 
 // Вызови эту функцию при инициализации приложения
 initCookieBanner();
-
-// --- ИНИЦИАЛИЗАЦИЯ ---
-renderProjects(currentPage);
