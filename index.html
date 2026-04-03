@@ -9,8 +9,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat:wght@500&display=swap"
     rel="stylesheet">
-  <script type="module" crossorigin src="/neuro-landing/assets/index-4dDe_cyV.js"></script>
-  <link rel="stylesheet" crossorigin href="/neuro-landing/assets/index-CaZTlMwo.css">
+  <script type="module" crossorigin src="/neuro-landing/assets/index-CaWOQyZ4.js"></script>
+  <link rel="stylesheet" crossorigin href="/neuro-landing/assets/index-BsPvhPf0.css">
 </head>
 
 <body>
@@ -238,6 +238,92 @@
       </div>
     </div>
 
+    <!-- Модальное окно: Анкета (открывается по иконке телефона) -->
+    <div id="contact-modal" class="modal contact-modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__content contact-modal__content">
+        <button class="modal__close contact-modal__close">×</button>
+        <div class="contact-modal__body">
+          <h2>Оставьте заявку</h2>
+          <p class="contact-modal__subtitle">Мы свяжемся с вами в ближайшее время</p>
+          <form class="contact-form contact-form-modal">
+            <div class="form-grid form-grid-modal">
+              <div class="form-group">
+                <label class="form-label">*Ваше имя</label>
+                <input type="text" class="form-input" placeholder="Имя" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Компания</label>
+                <input type="text" class="form-input" placeholder="Название компании">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">*Телефон</label>
+                <input type="tel" name="phone" class="form-input" placeholder="+7 (___) ___ __ __" required
+                  maxlength="18" inputmode="tel">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">E-mail</label>
+                <input type="email" name="email" class="form-input" placeholder="name@mail.ru" maxlength="100">
+              </div>
+            </div>
+
+            <div class="form-footer">
+              <button type="submit" class="submit-btn">Отправить заявку</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Модальное окно: Политика конфиденциальности -->
+    <div id="privacy-modal" class="modal info-modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__content info-modal__content">
+        <button class="modal__close info-modal__close">×</button>
+        <div class="info-modal__body">
+          <h2>Политика конфиденциальности</h2>
+          <div class="info-modal__text">
+            <p>Настоящая Политика конфиденциальности определяет порядок обработки и защиты персональных данных пользователей сайта NeuroТехнологии.</p>
+            <h3>1. Сбор информации</h3>
+            <p>Мы собираем только те персональные данные, которые вы добровольно предоставляете через формы обратной связи: имя, номер телефона, адрес электронной почты и название компании.</p>
+            <h3>2. Использование информации</h3>
+            <p>Собранные данные используются исключительно для связи с вами, обработки ваших запросов и улучшения качества наших услуг.</p>
+            <h3>3. Защита информации</h3>
+            <p>Мы принимаем необходимые организационные и технические меры для обеспечения безопасности ваших персональных данных.</p>
+            <h3>4. Передача третьим лицам</h3>
+            <p>Мы не передаём ваши персональные данные третьим лицам, за исключением случаев, предусмотренных законодательством.</p>
+            <h3>5. Файлы cookie</h3>
+            <p>Сайт использует файлы cookie для улучшения пользовательского опыта. Вы можете управлять настройками cookie в вашем браузере.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Модальное окно: Условия использования -->
+    <div id="terms-modal" class="modal info-modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__content info-modal__content">
+        <button class="modal__close info-modal__close">×</button>
+        <div class="info-modal__body">
+          <h2>Условия использования</h2>
+          <div class="info-modal__text">
+            <p>Используя данный сайт, вы соглашаетесь с настоящими условиями использования.</p>
+            <h3>1. Общие положения</h3>
+            <p>Материалы сайта носят информационный характер и не являются публичной офертой. Компания оставляет за собой право вносить изменения в содержание сайта без предварительного уведомления.</p>
+            <h3>2. Интеллектуальная собственность</h3>
+            <p>Все материалы сайта, включая тексты, изображения, дизайн и программный код, защищены авторским правом. Копирование без письменного разрешения правообладателя запрещено.</p>
+            <h3>3. Ответственность</h3>
+            <p>Компания не несёт ответственности за возможные неточности в содержании сайта и последствия их использования.</p>
+            <h3>4. Ссылки на сторонние ресурсы</h3>
+            <p>Сайт может содержать ссылки на сторонние сайты. Мы не несём ответственности за содержание и политику конфиденциальности таких ресурсов.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
   <footer class="footer">
     <div class="footer__container">
@@ -257,9 +343,9 @@
       </div>
 
       <div class="footer__right">
-        <a href="#" class="footer__link">Privacy Policy</a>
-        <a href="#" class="footer__link">Cookie Settings</a>
-        <a href="#" class="footer__link">Terms of Service</a>
+        <a href="#" class="footer__link" id="privacy-link">Политика конфиденциальности</a>
+        <a href="#" class="footer__link" id="cookie-settings-link">Настройки cookie</a>
+        <a href="#" class="footer__link" id="terms-link">Условия использования</a>
       </div>
     </div>
   </footer>
