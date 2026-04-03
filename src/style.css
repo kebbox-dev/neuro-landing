@@ -3,7 +3,7 @@
   --text-color: #ffffff;
   --accent-green: #4ade80; 
   --accent-cyan: #00e5ff;
-  --gray-text: #9ca3af;
+  --gray-text: #cbd0da;
   --card-bg: #111111;
   font-family: 'Inter', sans-serif;
 }
@@ -287,7 +287,7 @@ body.menu-open .mobile-menu {
 
 .about-card__header {
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 26px;
   line-height: 18px; /* Как в твоих параметрах */
   letter-spacing: 0px;
@@ -305,7 +305,7 @@ body.menu-open .mobile-menu {
 
 .about-card__content p {
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.6;
   color: #FFFFFF; /* Чистый белый как на скриншоте */
@@ -332,10 +332,10 @@ body.menu-open .mobile-menu {
   backdrop-filter: blur(10px);
   border-radius: 40px;
   padding: 45px;
-  
+
   /* Твой бордер по умолчанию */
-  border: 2px solid #595959; 
-  
+  border: 1px solid #595959;
+
   transition: all 0.4s ease;
   display: flex;
   flex-direction: column;
@@ -345,16 +345,16 @@ body.menu-open .mobile-menu {
 /* Эффект при наведении */
 .service-card:hover {
   /* Граница становится циановой (берет из переменной в HTML) */
-  border-color: var(--card-accent); 
-  
+  border-color: var(--card-accent);
+
   /* Добавляем мягкое свечение именно этого цвета */
-  box-shadow: 0 0 25px rgba(0, 229, 255, 0.2); 
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.15);
   transform: translateY(-5px);
 }
 
 .service-card__title {
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 26px;
   line-height: 18px;
   color: #FFFFFF;
@@ -375,7 +375,7 @@ body.menu-open .mobile-menu {
 
 .service-list li {
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
   color: #FFFFFF;
@@ -408,19 +408,62 @@ body.menu-open .mobile-menu {
 }
 
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, auto);
-  gap: 20px;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  min-height: 800px; /* Чтобы футер не прыгал при смене страниц */
+.projects-section {
+  position: relative;
 }
 
-/* Состояние при смене страницы */
-.projects-grid.fade-out {
-  opacity: 0;
-  transform: translateY(10px);
+.project-row-wrapper {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.project-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  flex: 1;
+  min-height: 300px;
+}
+
+.pag-arrow {
+  background: none;
+  border: none;
+  color: var(--accent-cyan);
+  width: 50px;
+  height: 140px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: auto 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.pag-arrow:hover:not(:disabled) {
+  color: #ffffff;
+  background: rgba(0, 229, 255, 0.1);
+}
+
+.pag-arrow:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
+/* ПАГИНАЦИЯ */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .project-card {
@@ -487,55 +530,28 @@ body.menu-open .mobile-menu {
   width: 100%;
 }
 
-/* ПАГИНАЦИЯ */
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 50px;
-}
-
-.pag-arrow {
-  background: none;
-  border: None;
-  color: var(--accent-cyan);
-  width: 40px;
-  height: 40px;
-  border-radius: 30%;
-  cursor: pointer;
-  transition: 0.3s;
-  font-size: 18px;
-}
-
-.pag-arrow:hover:not(:disabled) {
-  color: #ffffff;
-}
-
-.pag-arrow:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-}
-
 .pag-dots {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .dot {
   width: 8px;
   height: 8px;
-  background: #555;
+  background: #444;
   border-radius: 50%;
   cursor: pointer;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+}
+
+.dot:hover {
+  background: #666;
 }
 
 .dot.active {
   background: var(--accent-cyan);
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
-
 
 .contact-section {
   margin-top: 100px;
@@ -770,12 +786,20 @@ body.menu-open .mobile-menu {
     position: relative;
   }
 
-  .projects-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important; /* Ровно две колонки */
-    grid-template-rows: auto !important; 
-    gap: 15px; /* Уменьшаем отступ, чтобы влезло */
+  .project-row {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 15px !important;
     min-height: auto !important;
+  }
+
+  .project-row-wrapper {
+    gap: 10px !important;
+  }
+
+  .project-row-wrapper .pag-arrow {
+    width: 36px !important;
+    height: 80px !important;
+    font-size: 18px !important;
   }
 
   .project-card {
@@ -1499,22 +1523,62 @@ body.menu-open {
   color: #B7B7B7;
 }
 
+.case-section li strong {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+/* SUCCESS MODAL */
+.success-modal .modal__content {
+  max-width: 500px;
+  padding: 60px 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.success-modal__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.success-modal__icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--accent-cyan);
+  color: #000;
+  font-size: 48px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-modal__body h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.success-modal__body p {
+  font-size: 16px;
+  color: #B7B7B7;
+  margin: 0;
+}
+
+.success-modal__close {
+  top: 15px;
+  right: 15px;
+  font-size: 32px;
+}
+
 .case-section li::before {
   content: '•';
   position: absolute;
   left: 0;
-  color: var(--accent-cyan);
-}
-
-.stats-mini {
-  display: flex;
-  gap: 20px;
-  margin-top: 15px;
-}
-
-.stats-mini span {
-  display: block;
-  font-size: 24px;
-  font-weight: 700;
   color: var(--accent-cyan);
 }

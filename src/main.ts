@@ -1,15 +1,23 @@
 import { projectsData } from './data/projects'
 
 // --- КОНСТАНТЫ И ПЕРЕМЕННЫЕ ---
-const getItemsPerPage = () => window.innerWidth <= 480 ? 4 : 8;
+const PROJECTS_PER_ROW = 4; // 4 проекта в строке
 
-let ITEMS_PER_PAGE = getItemsPerPage();
-let currentPage = 0;
+// Состояние для каждой строки
+let currentPageRow0 = 0;
+let currentPageRow1 = 0;
 
-const container = document.getElementById('projects-container') as HTMLElement;
-const dotsContainer = document.getElementById('pag-dots') as HTMLElement;
-const prevBtn = document.getElementById('prev-btn') as HTMLButtonElement;
-const nextBtn = document.getElementById('next-btn') as HTMLButtonElement;
+// Элементы для строки 0 (проекты 0,1,2,3 / 4,5,6,7 / ...)
+const row0 = document.getElementById('project-row-0') as HTMLElement;
+const dotsRow0 = document.getElementById('pag-dots-row-0') as HTMLElement;
+const prevBtnRow0 = document.getElementById('prev-btn-row-0') as HTMLButtonElement;
+const nextBtnRow0 = document.getElementById('next-btn-row-0') as HTMLButtonElement;
+
+// Элементы для строки 1 (проекты 4,5,6,7 / 8,9,10,11 / ...)
+const row1 = document.getElementById('project-row-1') as HTMLElement;
+const dotsRow1 = document.getElementById('pag-dots-row-1') as HTMLElement;
+const prevBtnRow1 = document.getElementById('prev-btn-row-1') as HTMLButtonElement;
+const nextBtnRow1 = document.getElementById('next-btn-row-1') as HTMLButtonElement;
 
 const openBtn = document.getElementById('menu-open');
 const closeBtn = document.getElementById('menu-close');
@@ -97,83 +105,120 @@ const closeModal = () => {
 modalClose?.addEventListener('click', closeModal);
 modalOverlay?.addEventListener('click', closeModal);
 
-// ОБНОВЛЕННЫЙ RENDER (добавь onclick в шаблон строки)
-function renderProjects(page: number) {
-  container.classList.add('fade-out');
+// Рендер проектов для строки
+function renderRow(rowElement: HTMLElement, page: number, rowOffset: number) {
+  rowElement.innerHTML = '';
+  // Строка 0: проекты 0-3, 8-11, 16-19... (page*8 + rowOffset*4)
+  // Строка 1: проекты 4-7, 12-15, 20-23... (page*8 + rowOffset*4)
+  const start = page * 8 + rowOffset * PROJECTS_PER_ROW;
+  const end = start + PROJECTS_PER_ROW;
+  const rowProjects = projectsData.slice(start, end);
 
-  setTimeout(() => {
-    container.innerHTML = '';
-    const start = page * ITEMS_PER_PAGE;
-    const end = start + ITEMS_PER_PAGE;
-    const pageItems = projectsData.slice(start, end);
-
-    pageItems.forEach(item => {
-      const cardHTML = `
-        <div class="project-card" style="cursor: pointer" onclick="openProjectDetails(${item.id})">
-          <div class="project-card__inner">
-            <div class="project-card__image-wrapper">
-              <img src="${item.image}" alt="${item.title}">
-            </div>
-            <div class="project-card__info">
-              <div class="project-card__text">
-                <span class="project-card__category">${item.category}:</span>
-                ${item.title}
-              </div>
+  rowProjects.forEach(item => {
+    const cardHTML = `
+      <div class="project-card" style="cursor: pointer" onclick="openProjectDetails(${item.id})">
+        <div class="project-card__inner">
+          <div class="project-card__image-wrapper">
+            <img src="${item.image}" alt="${item.title}">
+          </div>
+          <div class="project-card__info">
+            <div class="project-card__text">
+              <span class="project-card__category">${item.category}:</span>
+              ${item.title}
             </div>
           </div>
         </div>
-      `;
-      container.insertAdjacentHTML('beforeend', cardHTML);
-    });
-
-    container.classList.remove('fade-out');
-    updateControls();
-  }, 400);
+      </div>
+    `;
+    rowElement.insertAdjacentHTML('beforeend', cardHTML);
+  });
 }
 
 // Чтобы TypeScript не ругался на onclick в строке, прокинем функцию в window
 (window as any).openProjectDetails = openProjectDetails;
 
-// Слушатель изменения размера окна, чтобы пересчитать количество карточек
-window.addEventListener('resize', () => {
-  const newLimit = getItemsPerPage();
-  if (newLimit !== ITEMS_PER_PAGE) {
-    ITEMS_PER_PAGE = newLimit;
-    currentPage = 0; // Сбрасываем на первую страницу, чтобы избежать ошибок индекса
-    renderProjects(currentPage);
-  }
-});
+// Обновление контролов для строки
+function updateRowControls(
+  dotsContainer: HTMLElement,
+  prevBtn: HTMLButtonElement,
+  nextBtn: HTMLButtonElement,
+  currentPage: number,
+  rowOffset: number
+) {
+  // Считаем сколько проектов доступно для этой строки
+  const startForRow = rowOffset * PROJECTS_PER_ROW;
+  const projectsRemaining = projectsData.length - startForRow;
+  const totalPagesForRow = Math.ceil(projectsRemaining / 8);
 
-function updateControls() {
-  const totalPages = Math.ceil(projectsData.length / ITEMS_PER_PAGE);
-  
   if (prevBtn) prevBtn.disabled = currentPage === 0;
-  if (nextBtn) nextBtn.disabled = currentPage === totalPages - 1;
+  if (nextBtn) nextBtn.disabled = currentPage >= totalPagesForRow - 1;
 
   if (dotsContainer) {
     dotsContainer.innerHTML = '';
-    for (let i = 0; i < totalPages; i++) {
+    for (let i = 0; i < totalPagesForRow; i++) {
       const dot = document.createElement('div');
       dot.className = `dot ${i === currentPage ? 'active' : ''}`;
-      dot.onclick = () => goToPage(i);
+      dot.onclick = () => {
+        if (rowOffset === 0) {
+          currentPageRow0 = i;
+          renderRow(row0, currentPageRow0, 0);
+          updateRowControls(dotsRow0, prevBtnRow0, nextBtnRow0, currentPageRow0, 0);
+        } else {
+          currentPageRow1 = i;
+          renderRow(row1, currentPageRow1, 1);
+          updateRowControls(dotsRow1, prevBtnRow1, nextBtnRow1, currentPageRow1, 1);
+        }
+      };
       dotsContainer.appendChild(dot);
     }
   }
 }
 
-function goToPage(page: number) {
-  if (page === currentPage) return;
-  currentPage = page;
-  renderProjects(currentPage);
-}
+// Инициализация
+renderRow(row0, currentPageRow0, 0);
+renderRow(row1, currentPageRow1, 1);
+updateRowControls(dotsRow0, prevBtnRow0, nextBtnRow0, currentPageRow0, 0);
+updateRowControls(dotsRow1, prevBtnRow1, nextBtnRow1, currentPageRow1, 1);
 
-if (prevBtn) prevBtn.onclick = () => {
-  if (currentPage > 0) goToPage(currentPage - 1);
+// Обработчики для строки 0
+if (prevBtnRow0) prevBtnRow0.onclick = () => {
+  if (currentPageRow0 > 0) {
+    currentPageRow0--;
+    renderRow(row0, currentPageRow0, 0);
+    updateRowControls(dotsRow0, prevBtnRow0, nextBtnRow0, currentPageRow0, 0);
+  }
 };
 
-if (nextBtn) nextBtn.onclick = () => {
-  if (currentPage < Math.ceil(projectsData.length / ITEMS_PER_PAGE) - 1) {
-    goToPage(currentPage + 1);
+if (nextBtnRow0) nextBtnRow0.onclick = () => {
+  const startForRow = 0 * PROJECTS_PER_ROW;
+  const projectsRemaining = projectsData.length - startForRow;
+  const totalPagesForRow = Math.ceil(projectsRemaining / 8);
+  
+  if (currentPageRow0 < totalPagesForRow - 1) {
+    currentPageRow0++;
+    renderRow(row0, currentPageRow0, 0);
+    updateRowControls(dotsRow0, prevBtnRow0, nextBtnRow0, currentPageRow0, 0);
+  }
+};
+
+// Обработчики для строки 1
+if (prevBtnRow1) prevBtnRow1.onclick = () => {
+  if (currentPageRow1 > 0) {
+    currentPageRow1--;
+    renderRow(row1, currentPageRow1, 1);
+    updateRowControls(dotsRow1, prevBtnRow1, nextBtnRow1, currentPageRow1, 1);
+  }
+};
+
+if (nextBtnRow1) nextBtnRow1.onclick = () => {
+  const startForRow = 1 * PROJECTS_PER_ROW;
+  const projectsRemaining = projectsData.length - startForRow;
+  const totalPagesForRow = Math.ceil(projectsRemaining / 8);
+  
+  if (currentPageRow1 < totalPagesForRow - 1) {
+    currentPageRow1++;
+    renderRow(row1, currentPageRow1, 1);
+    updateRowControls(dotsRow1, prevBtnRow1, nextBtnRow1, currentPageRow1, 1);
   }
 };
 
@@ -255,17 +300,27 @@ if (contactForm) {
     // Если всё ок — отправляем
     console.log('Данные валидны, отправка:', data);
 
-    const btn = contactForm.querySelector('.submit-btn') as HTMLButtonElement;
-    const originalText = btn.innerText;
-    
-    btn.innerText = 'ОТПРАВЛЕНО';
-    btn.style.background = '#4ade80'; 
-    
-    setTimeout(() => {
-      btn.innerText = originalText;
-      btn.style.background = '#0DFFF7';
-      contactForm.reset();
-    }, 3000);
+    // Показываем модальное окно успеха
+    const successModal = document.getElementById('success-modal');
+    const successModalClose = successModal?.querySelector('.modal__close');
+    const successModalOverlay = successModal?.querySelector('.modal__overlay');
+
+    if (successModal) {
+      successModal.classList.add('active');
+      document.body.classList.add('modal-open');
+    }
+
+    const closeModalSuccess = () => {
+      if (successModal) {
+        successModal.classList.remove('active');
+        document.body.classList.remove('modal-open');
+      }
+    };
+
+    successModalClose?.addEventListener('click', closeModalSuccess);
+    successModalOverlay?.addEventListener('click', closeModalSuccess);
+
+    contactForm.reset();
   });
 }
 

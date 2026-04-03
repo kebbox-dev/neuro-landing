@@ -70,8 +70,11 @@
         </div>
 
         <div class="hero-scroll-hint">
-          <span>Связаться с нами</span>
-          <div class="arrow-circle">↓</div>
+          <div class="arrow-circle">
+            <svg class="phone-icon" width="24" height="24" viewBox="0 0 24 24">
+              <use href="icons.svg#phone-icon"></use>
+            </svg>
+          </div>
         </div>
       </div>
     </section>
@@ -168,13 +171,22 @@
         </div>
       </section>
       <section id="projects" class="projects-section">
-        <div id="projects-container" class="projects-grid">
+        <div class="project-row-wrapper">
+          <button id="prev-btn-row-0" class="pag-arrow" >〈</button>
+          <div class="project-row" id="project-row-0"></div>
+          <button id="next-btn-row-0" class="pag-arrow">〉</button>
+        </div>
+        <div class="pagination">
+          <div id="pag-dots-row-0" class="pag-dots"></div>
         </div>
 
+        <div class="project-row-wrapper">
+          <button id="prev-btn-row-1" class="pag-arrow">〈</button>
+          <div class="project-row" id="project-row-1"></div>
+          <button id="next-btn-row-1" class="pag-arrow">〉</button>
+        </div>
         <div class="pagination">
-          <button id="prev-btn" class="pag-arrow">〈</button>
-          <div id="pag-dots" class="pag-dots"></div>
-          <button id="next-btn" class="pag-arrow">〉</button>
+          <div id="pag-dots-row-1" class="pag-dots"></div>
         </div>
       </section>
 
@@ -212,6 +224,18 @@
       </section>
     </section>
 
+    <!-- Модальное окно успешной отправки -->
+    <div id="success-modal" class="modal success-modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__content success-modal__content">
+        <button class="modal__close success-modal__close">×</button>
+        <div class="success-modal__body">
+          <div class="success-modal__icon">✓</div>
+          <h2>Заявка успешно отправлена!</h2>
+          <p>Мы свяжемся с вами в ближайшее время</p>
+        </div>
+      </div>
+    </div>
 
   </div>
   <footer class="footer">
