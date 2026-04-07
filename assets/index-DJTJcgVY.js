@@ -29,7 +29,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects/project-1.jpg`},{id:2,category:`PropTech & Ecosystems`,title:`Цифровая экосистема девелопера полного цикла`,description:`От первого клика в каталоге до торжественной выдачи ключей в одном приложении.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-2.jpg`},{id:2,category:`PropTech & Ecosystems`,title:`Цифровая экосистема девелопера полного цикла`,description:`От первого клика в каталоге до торжественной выдачи ключей в одном приложении.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Комплексная цифровизация процесса продажи и передачи недвижимости, направленная на устранение бюрократических барьеров и повышение лояльности агентской сети.</p>
       
@@ -67,7 +67,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects/project-1.jpg`},{id:3,category:`Business Intelligence`,title:`Интеллектуальные дашборды`,description:`Управление миллиардными активами девелопера на основе данных в реальном времени.`,fullDescription:`
+  `,image:`/neuro-landing/projects/project-3.jpg`},{id:3,category:`Business Intelligence`,title:`Интеллектуальные дашборды`,description:`Управление миллиардными активами девелопера на основе данных в реальном времени.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Создание единого «центра управления» бизнесом, который объединяет разрозненные данные из маркетинга, продаж и HR для принятия стратегических решений.</p>
       
