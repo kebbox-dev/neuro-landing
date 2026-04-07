@@ -71,6 +71,19 @@ body.menu-open .mobile-menu {
   z-index: -1;
 }
 
+/* Затемнение поверх видео */
+.hero-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Полупрозрачный черный оверлей */
+  z-index: 0;
+  pointer-events: none;
+}
+
 /* HEADER */
 .header {
   width: 100%;

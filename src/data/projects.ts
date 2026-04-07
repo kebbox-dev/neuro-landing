@@ -39,7 +39,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-2.jpg"
   },
   {
     id: 2,
@@ -85,7 +85,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects/project-1.jpg"
+    image: "/neuro-landing/projects/project-3.jpg"
   },
   {
     id: 3,
