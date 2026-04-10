@@ -1025,7 +1025,6 @@
           </div>
           <div class="project-card__info">
             <div class="project-card__text">
-              <span class="project-card__category">${e.category}:</span>
               ${e.title}
             </div>
           </div>
