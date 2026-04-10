@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(dir *)",
+      "Bash(type *)",
+      "Bash(chcp *)",
+      "Bash(powershell *)",
+      "Bash(do *)",
+      "Bash(npx *)",
+      "Bash(copy *)",
+      "Bash(del *)"
+    ]
+  },
+  "$version": 3
+}

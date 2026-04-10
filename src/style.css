@@ -768,6 +768,19 @@ body.menu-open .mobile-menu {
   color: var(--accent-cyan);
 }
 
+.footer__email {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent-cyan);
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footer__email:hover {
+  opacity: 0.8;
+}
+
 .footer__icon {
   filter: grayscale(1) brightness(0.7); /* Чтобы иконка не была слишком яркой */
 }
@@ -783,6 +796,11 @@ body.menu-open .mobile-menu {
   .footer__right {
     flex-direction: column;
     gap: 10px;
+    align-items: center;
+  }
+
+  .footer__email {
+    text-align: center;
   }
 }
 

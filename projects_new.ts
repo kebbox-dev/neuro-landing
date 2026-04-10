@@ -51,7 +51,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Ритейл бытовой техники.jpg"
+    image: "/neuro-landing/projects/project-2.jpg"
   },
   {
     id: 2,
@@ -97,7 +97,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Девелопер застройщик.jpg"
+    image: "/neuro-landing/projects/project-3.jpg"
   },
   {
     id: 3,
@@ -141,7 +141,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Интеллектуальные дашборды.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 4,
@@ -185,7 +185,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Инвестиционный модуль.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 5,
@@ -225,7 +225,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Мессенджер.png"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 6,
@@ -264,7 +264,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Интеллектуальный агрегатор доставки.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 7,
@@ -303,7 +303,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Сервис выездного обслуживания.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 8,
@@ -353,7 +353,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Медицина Тревел.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
 
   // СТРАНИЦА 2
@@ -403,7 +403,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Блокчейн для стримеров.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 10,
@@ -448,7 +448,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Грайн.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 11,
@@ -493,7 +493,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Беринг.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 12,
@@ -538,7 +538,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Мебельная фабрика.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 13,
@@ -583,7 +583,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Капитальный ремонт.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 14,
@@ -628,7 +628,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Минцифры РБ.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 15,
@@ -673,7 +673,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/ЦУР.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 16,
@@ -718,7 +718,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/ЦУР.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 17,
@@ -763,7 +763,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Интерактивные стенды.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 18,
@@ -808,7 +808,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Мобильный оператор.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 19,
@@ -859,7 +859,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Агроклассифайд.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 20,
@@ -903,29 +903,18 @@ export const projectsData: ProjectItem[] = [
       </div>
 
       <div class="case-section">
-        <h3>4. Результаты для завода и технологических партнеров</h3>
+        <h3>5. Цифровой двойник производства: Мобильный мониторинг для топ-менеджмента</h3>
         <ul>
-          <li><strong>99.9% аптайм:</strong> Система спроектирована для работы в режиме 24/7 в суровых промышленных условиях.</li>
+          <li>99.9% аптайм: Система спроектирована для работы в режиме 24/7 в суровых промышленных условиях.</li>
           <li><strong>Минимизация потерь:</strong> Нейросетевой контроль снижает риск попадания брака в торговые сети до нуля.</li>
           <li><strong>Масштабируемость:</strong> Возможность подключения неограниченного количества линий и интеграции новых типов оборудования.</li>
           <li><strong>Готовое решение для интеграторов:</strong> Мы выступаем надежным технологическим вендором для компаний, внедряющих системы маркировки «под ключ».</li>
-        </ul>
-      </div>
-
-      <div class="case-section">
-        <h3>5. Цифровой двойник производства: Мобильный мониторинг для топ-менеджмента</h3>
-        <p>В дополнение к цеховому софту, мы разработали аналитическое мобильное приложение для руководителей и собственников бизнеса, которое превращает производственные данные в управленческие решения.</p>
-        <ul>
-          <li><strong>Производство в кармане (Executive Dashboard):</strong> Доступ к ключевым показателям эффективности (OEE) всех линий в реальном времени. Руководитель видит объемы выпуска, текущую скорость конвейеров и выполнение плана в процентах.</li>
-          <li><strong>Контроль брака и простоев:</strong> Мгновенные push-уведомления об аномальных скачках отбраковки или остановке линий. Система позволяет оперативно разобраться в причинах (нехватка сырья, поломка, сбой маркировки) без личного присутствия в цеху.</li>
-          <li><strong>Финансовая прозрачность:</strong> Визуализация затрат на коды маркировки и расходные материалы, прогноз исполнения контрактов и аналитика загрузки мощностей.</li>
-          <li><strong>Удаленный аудит:</strong> Доступ к логам системы и отчетам по агрегации, что гарантирует полную прозрачность работы смен и исключает манипуляции с отчетностью.</li>
-          <li><strong>Результат:</strong> Руководство получает инструмент для стратегического контроля, сокращая время реакции на инциденты и повышая общую рентабельность предприятия.</li>
+          <li>В дополнение к цеховому софту, мы разработали аналитическое мобильное приложение для руководителей и собственников бизнеса, которое превращает производственные данные в управленческие решения.</li>
         </ul>
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Мобильный оператор.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 21,
@@ -978,7 +967,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Юристы.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 22,
@@ -1030,7 +1019,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Технологический аудит Маркетплейсов.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 23,
@@ -1082,7 +1071,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Система лояльности.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 24,
@@ -1131,7 +1120,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Бартер.jpg"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 25,
@@ -1180,7 +1169,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Кладовки.png"
+    image: "/neuro-landing/projects/project-1.jpg"
   },
   {
     id: 26,
@@ -1229,6 +1218,6 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Парковки.png"
+    image: "/neuro-landing/projects/project-1.jpg"
   }
 ];
