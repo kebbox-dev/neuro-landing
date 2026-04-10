@@ -124,7 +124,6 @@ function renderRow(rowElement: HTMLElement, page: number, rowOffset: number) {
           </div>
           <div class="project-card__info">
             <div class="project-card__text">
-              <span class="project-card__category">${item.category}:</span>
               ${item.title}
             </div>
           </div>

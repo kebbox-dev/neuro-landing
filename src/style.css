@@ -377,7 +377,7 @@ body.menu-open .mobile-menu {
 .service-num {
   color: var(--card-accent);
   transition: color 0.4s ease;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .service-list {
@@ -502,6 +502,7 @@ body.menu-open .mobile-menu {
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin-bottom: 20px;
   border: 2px solid #FFFFFF;
+  max-height: none;
 }
 
 .project-card img {
@@ -541,6 +542,11 @@ body.menu-open .mobile-menu {
   color: #FFFFFF;
   opacity: 0.9;
   width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .pag-dots {
@@ -819,21 +825,43 @@ body.menu-open .mobile-menu {
 
   .project-row {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    gap: 15px !important;
+    gap: 16px !important;
     min-height: auto !important;
     align-items: stretch !important;
+    
   }
 
   .project-row-wrapper {
-    gap: 10px !important;
+    gap: 0 !important;
     align-items: stretch !important;
+    padding: 0 20px !important;
+    position: relative !important;
+    overflow: visible !important;
   }
 
   .project-row-wrapper .pag-arrow {
-    width: 36px !important;
-    height: 80px !important;
-    font-size: 28px !important;
+    width: 10px !important;
+    height: 100% !important;
+    font-size: 60px !important;
     flex-shrink: 0 !important;
+    position: absolute !important;
+    z-index: 10 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    margin: auto 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .project-row-wrapper #prev-btn-row-0,
+  .project-row-wrapper #prev-btn-row-1 {
+    left: -20px !important;
+  }
+
+  .project-row-wrapper #next-btn-row-0,
+  .project-row-wrapper #next-btn-row-1 {
+    right: -20px !important;
   }
 
   .project-card {
@@ -853,23 +881,28 @@ body.menu-open .mobile-menu {
     display: flex;
     flex-direction: column;
     box-sizing: border-box !important;
+    overflow: hidden !important;
+    padding-right: 0 !important;
   }
 
   .project-card__image-wrapper {
     width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
-    aspect-ratio: 1 / 1 !important;
-    margin-bottom: 10px;
+    aspect-ratio: 4 / 5 !important;
+    margin-bottom: 15px;
+    margin-left: 0 !important;
     flex-shrink: 0 !important;
     box-sizing: border-box !important;
     overflow: hidden;
+    border-radius: 24px !important;
   }
 
   .project-card__image-wrapper img {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover;
+    object-position: center 25% !important;
     display: block;
     flex-shrink: 0 !important;
   }
@@ -877,19 +910,12 @@ body.menu-open .mobile-menu {
   /* 4. Немного уменьшаем текст, чтобы он не разъезжался в узкой колонке */
   .project-card__text {
     font-size: 16px !important;
-    width: 100% !important;
-    line-height: 1.4; /* Настроим интервал для читаемости */
-
-    /* Ограничение в 3 строки */
-    display: -webkit-box;
-    line-clamp: 3;
-    -webkit-line-clamp: 3; /* Число строк */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-
-    /* Чтобы текст не прыгал, если строк меньше 3, можно зафиксировать высоту */
-    min-height: 50px;
+    line-height: 1.3 !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
   }
 
   /* Центрируем и увеличиваем кнопки пагинации для удобства нажатия пальцем */
@@ -1095,10 +1121,20 @@ body.menu-open {
   }
 
   .about-card__header {
-  font-size: 16px; /* Уменьшаем заголовок с 20px */
-  line-height: 1.2;
-  margin-bottom: 15px;
-}
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .about-card__accent {
+    font-size: 36px !important;
+    margin-right: 8px;
+    display: inline;
+    flex-shrink: 0;
+  }
 
 .about-card__content p {
   font-size: 15px; /* Уменьшаем основной текст с 20px */
@@ -1113,8 +1149,8 @@ body.menu-open {
 }
 
 .service-card__title {
-  font-size: 18px; /* Уменьшаем название услуги с 26px */
-  line-height: 1.3; /* Чтобы текст в две строки не слипался */
+  font-size: 16px;
+  line-height: 1.3;
   margin-bottom: 15px;
 }
 
