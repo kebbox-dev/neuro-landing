@@ -510,6 +510,7 @@ body.menu-open .mobile-menu {
   height: 100%;
   display: block;
   object-fit: cover;
+  object-position: center 15%;
   transition: transform 0.5s ease;
 }
 
