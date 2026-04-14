@@ -369,15 +369,17 @@ body.menu-open .mobile-menu {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 26px;
-  line-height: 18px;
+  line-height: 1.1;
   color: #FFFFFF;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  display: block;
 }
 
 .service-num {
   color: var(--card-accent);
   transition: color 0.4s ease;
   font-size: 32px;
+  line-height: inherit;
 }
 
 .service-list {
@@ -1168,8 +1170,9 @@ body.menu-open {
 
 .service-card__title {
   font-size: 16px;
-  line-height: 1.3;
+  line-height: 1.8;
   margin-bottom: 15px;
+  display: block;
 }
 
 .service-list li {
