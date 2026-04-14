@@ -5,4 +5,5 @@ export interface ProjectItem {
   description: string;
   fullDescription?: string;
   image: string;
+  imageList?: string;
 }

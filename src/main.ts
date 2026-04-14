@@ -116,11 +116,12 @@ function renderRow(rowElement: HTMLElement, page: number, rowOffset: number) {
   const rowProjects = projectsData.slice(start, end);
 
   rowProjects.forEach(item => {
+    const listImage = item.imageList || item.image;
     const cardHTML = `
       <div class="project-card" style="cursor: pointer" onclick="openProjectDetails(${item.id})">
         <div class="project-card__inner">
           <div class="project-card__image-wrapper">
-            <img src="${item.image}" alt="${item.title}">
+            <img src="${listImage}" alt="${item.title}">
           </div>
           <div class="project-card__info">
             <div class="project-card__text">

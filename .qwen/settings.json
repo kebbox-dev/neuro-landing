@@ -9,7 +9,10 @@
       "Bash(do *)",
       "Bash(npx *)",
       "Bash(copy *)",
-      "Bash(del *)"
+      "Bash(del *)",
+      "Bash(node *)",
+      "Bash(findstr *)",
+      "Bash(npm run *)"
     ]
   },
   "$version": 3
