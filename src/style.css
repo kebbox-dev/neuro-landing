@@ -302,7 +302,7 @@ body.menu-open .mobile-menu {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 26px;
-  line-height: 18px; /* Как в твоих параметрах */
+  line-height: 1.0;
   letter-spacing: 0px;
   color: #FFFFFF;
   margin-bottom: 25px;
@@ -314,6 +314,7 @@ body.menu-open .mobile-menu {
   color: var(--accent-cyan);
   margin-right: 8px;
   font-size: 36px;
+  line-height: 1.0;
 }
 
 .about-card__content p {
@@ -1170,7 +1171,7 @@ body.menu-open {
 
 .service-card__title {
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.2;
   margin-bottom: 15px;
   display: block;
 }
