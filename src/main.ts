@@ -535,14 +535,6 @@ privacyLink?.addEventListener('click', (e) => {
   openInfoModal('privacy-modal');
 });
 
-// Условия использования
-const termsLink = document.getElementById('terms-link');
-const termsModal = document.getElementById('terms-modal');
-termsLink?.addEventListener('click', (e) => {
-  e.preventDefault();
-  openInfoModal('terms-modal');
-});
-
 // Настройки cookie — просто скрываем баннер и сбрасываем согласие
 const cookieSettingsLink = document.getElementById('cookie-settings-link');
 cookieSettingsLink?.addEventListener('click', (e) => {
@@ -553,7 +545,7 @@ cookieSettingsLink?.addEventListener('click', (e) => {
 });
 
 // Закрытие модальных окон футера
-[privacyModal, termsModal].forEach(modal => {
+[privacyModal].forEach(modal => {
   if (!modal) return;
 
   const closeBtn = modal.querySelector('.modal__close');
