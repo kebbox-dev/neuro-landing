@@ -41,7 +41,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Ритейл бытовой техники.jpg`},{id:2,category:`PropTech & Ecosystems`,title:`Цифровая экосистема девелопера полного цикла`,description:`От первого клика в каталоге до торжественной выдачи ключей в одном приложении.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Ритейл бытовой техники.jpg`,imageList:`/neuro-landing/projects_image/Ритейл бытовой техники 1x1.jpg`},{id:2,category:`PropTech & Ecosystems`,title:`Цифровая экосистема девелопера полного цикла`,description:`От первого клика в каталоге до торжественной выдачи ключей в одном приложении.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Комплексная цифровизация процесса продажи и передачи недвижимости, направленная на устранение бюрократических барьеров и повышение лояльности агентской сети.</p>
 
@@ -79,7 +79,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Девелопер застройщик.jpg`},{id:3,category:`Business Intelligence`,title:`Интеллектуальные дашборды`,description:`Управление миллиардными активами девелопера на основе данных в реальном времени.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Девелопер застройщик.jpg`,imageList:`/neuro-landing/projects_image/Девелопер застройщик 1x1.jpg`},{id:3,category:`Business Intelligence`,title:`Интеллектуальные дашборды`,description:`Управление миллиардными активами девелопера на основе данных в реальном времени.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Создание единого «центра управления» бизнесом, который объединяет разрозненные данные из маркетинга, продаж и HR для принятия стратегических решений.</p>
 
@@ -115,7 +115,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Интеллектуальные дашборды.jpg`},{id:4,category:`FinTech`,title:`Инвестиционный модуль для анализа объектов`,description:`Математический фундамент для привлечения инвестиционного капитала.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Интеллектуальные дашборды.jpg`,imageList:`/neuro-landing/projects_image/Интеллектуальные дашборды 1x1.jpg`},{id:4,category:`FinTech`,title:`Инвестиционный модуль для анализа объектов`,description:`Математический фундамент для привлечения инвестиционного капитала.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка высокотехнологичного аналитического инструмента, переводящего принятие инвестиционных решений из «ручного режима» в автоматизированную систему с высокой степенью прозрачности данных.</p>
 
@@ -151,7 +151,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Инвестиционный модуль.jpg`},{id:5,category:`AI Communications`,title:`Корпоративный мессенджер с AI-переводчиком и видеосвязью`,description:`Защищенная платформа для коммуникаций без языковых барьеров`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Инвестиционный модуль.jpg`,imageList:`/neuro-landing/projects_image/Инвестиционный модуль 1x1.jpg`},{id:5,category:`AI Communications`,title:`Корпоративный мессенджер с AI-переводчиком и видеосвязью`,description:`Защищенная платформа для коммуникаций без языковых барьеров`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка полноценного мессенджера (iOS, Android, Web), объединяющего классический чат, видеозвонки в HD-качестве и встроенный нейросетевой движок для мгновенного перевода речи и текста.</p>
 
@@ -183,7 +183,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Мессенджер.png`},{id:6,category:`Logistics / E-commerce`,title:`Интеллектуальный агрегатор доставки для интернет-магазинов`,description:`Единое окно для управления отгрузками через разные службы (СДЭК, Почта, Boxberry и др.)`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Мессенджер.png`,imageList:`/neuro-landing/projects_image/Мессенджер 1x1.png`},{id:6,category:`Logistics / E-commerce`,title:`Интеллектуальный агрегатор доставки для интернет-магазинов`,description:`Единое окно для управления отгрузками через разные службы (СДЭК, Почта, Boxberry и др.)`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка модуля, который выбирает самый выгодный и быстрый способ доставки для каждой посылки. Это решение, которое обычно стоит миллионы у крупных агрегаторов, мы адаптировали для частного интернет-магазина.</p>
 
@@ -214,7 +214,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Интеллектуальный агрегатор доставки.jpg`},{id:7,category:`FSM / Cloud Platform`,title:`Сервис автоматизации выездного обслуживания (Field Service Management)`,description:`Облачная платформа для управления выездными мастерами и курьерами`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Интеллектуальный агрегатор доставки.jpg`,imageList:`/neuro-landing/projects_image/Интеллектуальный агрегатор доставки 1x1.jpg`},{id:7,category:`FSM / Cloud Platform`,title:`Сервис автоматизации выездного обслуживания (Field Service Management)`,description:`Облачная платформа для управления выездными мастерами и курьерами`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка системы «под ключ» для компаний, чьи сотрудники работают на выезде (ремонт техники, установка окон, клининг, курьерская доставка). Мы заменили бумажные журналы и чаты в мессенджерах на единое цифровое пространство.</p>
 
@@ -245,7 +245,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Сервис выездного обслуживания.jpg`},{id:8,category:`GovTech / Medical Tourism`,title:`Федеральная государственная платформа «Russia Med Travel»`,description:`Официальный портал медицинского туризма в России (проект Минздрава РФ)`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Сервис выездного обслуживания.jpg`,imageList:`/neuro-landing/projects_image/Сервис выездного обслуживания 1x1.jpg`},{id:8,category:`GovTech / Medical Tourism`,title:`Федеральная государственная платформа «Russia Med Travel»`,description:`Официальный портал медицинского туризма в России (проект Минздрава РФ)`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка и поддержка ключевого информационного узла в рамках федерального проекта «Развитие экспорта медицинских услуг». Платформа является «единым окном» для иностранных граждан, желающих получить высокотехнологичную медицинскую помощь в России.</p>
 
@@ -287,7 +287,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Медицина Тревел.jpg`},{id:9,category:`Web3 / Blockchain`,title:`Web3-экосистема для экономики стриминга`,description:`Собственный блокчейн и нативная криптовалюта: Content-to-Earn в реальном времени.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Медицина Тревел.jpg`,imageList:`/neuro-landing/projects_image/Медицина Тревел 1x1.jpg`},{id:9,category:`Web3 / Blockchain`,title:`Web3-экосистема для экономики стриминга`,description:`Собственный блокчейн и нативная криптовалюта: Content-to-Earn в реальном времени.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка независимой блокчейн-сети с нуля и запуск инновационной криптовалюты, ориентированной на высоконагруженную индустрию стриминга. Мы создали инфраструктуру, где каждое взаимодействие «зритель-стример» фиксируется в блокчейне как транзакция.</p>
 
@@ -327,7 +327,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Блокчейн для стримеров.jpg`},{id:10,category:`Industrial IoT / ERP`,title:`«Грайн» — Система адаптивного вытягивающего производства`,description:`Интеллектуальное планирование мощностей, основанное на реальном рыночном спросе.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Блокчейн для стримеров.jpg`,imageList:`/neuro-landing/projects_image/Блокчейн для стримеров 1x1.jpg`},{id:10,category:`Industrial IoT / ERP`,title:`«Грайн» — Система адаптивного вытягивающего производства`,description:`Интеллектуальное планирование мощностей, основанное на реальном рыночном спросе.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка уникального программного комплекса для производственных предприятий, реализующего философию «вытягивающего производства» (Pull-system). Система не просто автоматизирует учет, она управляет производственными мощностями в зависимости от динамики заказов и предиктивных моделей спроса.</p>
 
@@ -364,7 +364,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Грайн.jpg`},{id:11,category:`Industrial CRM / ERP`,title:`«Беринг» — Промышленный агрегатор клиентского спроса`,description:`Комплексная CRM-экосистема для управления полным циклом производства.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Грайн.jpg`,imageList:`/neuro-landing/projects_image/Грайн 1x1.jpg`},{id:11,category:`Industrial CRM / ERP`,title:`«Беринг» — Промышленный агрегатор клиентского спроса`,description:`Комплексная CRM-экосистема для управления полным циклом производства.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Интеллектуальная система управления взаимоотношениями с клиентами, перепроектированная под нужды сложного производственного цикла. Мы объединили фронт-офис (продажи) и бэк-офис (производство) в единый цифровой поток данных.</p>
 
@@ -401,7 +401,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Беринг.jpg`},{id:12,category:`Industrial IoT / Manufacturing`,title:`Мебельный холдинг — Автоматизация Mass Customization`,description:`Сквозная цифровая система: от визуального конфигуратора до станков с ЧПУ.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Беринг.jpg`,imageList:`/neuro-landing/projects_image/Беринг 1x1.jpg`},{id:12,category:`Industrial IoT / Manufacturing`,title:`Мебельный холдинг — Автоматизация Mass Customization`,description:`Сквозная цифровая система: от визуального конфигуратора до станков с ЧПУ.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка высокотехнологичного комплекса для мебельного производства, работающего по модели Mass Customization (массовое производство индивидуализированных изделий). Система автоматизирует путь заказа от первого клика клиента в браузере до формирования управляющих программ для промышленного оборудования.</p>
 
@@ -438,7 +438,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Мебельная фабрика.jpg`},{id:13,category:`PropTech / GovTech`,title:`Оператор капремонта — Управление распределенными проектами`,description:`Цифровая экосистема для контроля жизненного цикла ремонта МКД.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Мебельная фабрика.jpg`,imageList:`/neuro-landing/projects_image/Мебельная фабрика 1x1.jpg`},{id:13,category:`PropTech / GovTech`,title:`Оператор капремонта — Управление распределенными проектами`,description:`Цифровая экосистема для контроля жизненного цикла ремонта МКД.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Масштабируемая платформа для управления сложной распределенной инфраструктурой объектов капитального ремонта. Проект решает задачу полной цифровизации госконтрактов: от дефектной ведомости до финального акта выполненных работ.</p>
 
@@ -475,7 +475,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Капитальный ремонт.jpg`},{id:14,category:`GovTech / Big Data`,title:`Минцифры РБ — Система контроля региональных показателей`,description:`Аналитическая платформа для мониторинга эффективности государственного управления в реальном времени.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Капитальный ремонт.jpg`,imageList:`/neuro-landing/projects_image/Капитальный ремонт 1x1.jpg`},{id:14,category:`GovTech / Big Data`,title:`Минцифры РБ — Система контроля региональных показателей`,description:`Аналитическая платформа для мониторинга эффективности государственного управления в реальном времени.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка высокотехнологичного аналитического ПО, обеспечивающего цифровой контроль за исполнением ключевых показателей эффективности (KPI) в масштабах региона. Это «цифровой мозг» для принятия управленческих решений на высшем уровне.</p>
 
@@ -512,7 +512,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Минцифры РБ.jpg`},{id:15,category:`GovTech / Media`,title:`«Прямая линия» — Платформа взаимодействия с Главой региона`,description:`Высокотехнологичный сервис обработки массовых обращений граждан.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Минцифры РБ.jpg`,imageList:`/neuro-landing/projects_image/Минцифры РБ 1x1.jpg`},{id:15,category:`GovTech / Media`,title:`«Прямая линия» — Платформа взаимодействия с Главой региона`,description:`Высокотехнологичный сервис обработки массовых обращений граждан.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка интерактивной платформы, предназначенной для сбора, структурирования и фильтрации десятков тысяч обращений жителей региона для подготовки к масштабному прямому эфиру Главы региона.</p>
 
@@ -549,7 +549,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/ЦУР.jpg`},{id:16,category:`GovTech / Data Analytics`,title:`ЦУР (Центр управления регионом) — Агрегатор инцидентов`,description:`Система мониторинга и оперативного реагирования на обращения граждан в цифровом пространстве.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/ЦУР.jpg`,imageList:`/neuro-landing/projects_image/Мобильный оператор 1x1.jpg`},{id:16,category:`GovTech / Data Analytics`,title:`ЦУР (Центр управления регионом) — Агрегатор инцидентов`,description:`Система мониторинга и оперативного реагирования на обращения граждан в цифровом пространстве.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка аналитической платформы для обработки «цифрового следа» жителей региона. Система обеспечивает полный цикл: от автоматического сбора жалоб в социальных сетях до контроля качества ответов и решения инцидентов профильными ведомствами.</p>
 
@@ -586,7 +586,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/ЦУР.jpg`},{id:17,category:`Multimedia / EventTech`,title:`Интерактивные стенды (ПМЭФ и Конгресс-холлы)`,description:`Мультимедийная экосистема для демонстрации инвестиционного и экономического потенциала.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/ЦУР.jpg`,imageList:`/neuro-landing/projects_image/ЦУР 1x1.jpg`},{id:17,category:`Multimedia / EventTech`,title:`Интерактивные стенды (ПМЭФ и Конгресс-холлы)`,description:`Мультимедийная экосистема для демонстрации инвестиционного и экономического потенциала.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка высокотехнологичного программного обеспечения для крупных сенсорных панелей и инсталляций, предназначенных для презентации региона на крупнейших федеральных форумах (ПМЭФ и др.). Проект сочетает сложную визуализацию данных с интуитивно понятным интерфейсом.</p>
 
@@ -623,7 +623,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Интерактивные стенды.jpg`},{id:18,category:`Telecom / Highload`,title:`ГК «МК» — Экосистема мобильного оператора`,description:`Отказоустойчивое ядро для обслуживания 900 000+ абонентов.`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Интерактивные стенды.jpg`,imageList:`/neuro-landing/projects_image/Интерактивные стенды 1x1.jpg`},{id:18,category:`Telecom / Highload`,title:`ГК «МК» — Экосистема мобильного оператора`,description:`Отказоустойчивое ядро для обслуживания 900 000+ абонентов.`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка и поддержка высоконагруженного (Highload) программного комплекса для мобильного оператора. Система объединяет биллинговые процессы, управление абонентскими счетами и многоканальную платформу клиентской поддержки.</p>
 
@@ -660,7 +660,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Мобильный оператор.jpg`},{id:19,category:`E-commerce / Marketplace`,title:`Агро-классифайд — Экосистема прямой дистрибуции фермерских продуктов`,description:`Цифровой мост между локальными хозяйствами и конечным потребителем`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Мобильный оператор.jpg`,imageList:`/neuro-landing/projects_image/Мобильный оператор 1x1.jpg`},{id:19,category:`E-commerce / Marketplace`,title:`Агро-классифайд — Экосистема прямой дистрибуции фермерских продуктов`,description:`Цифровой мост между локальными хозяйствами и конечным потребителем`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка мобильного маркетплейса с распределенной системой платежей. Главная фишка проекта — прозрачность цепочки поставок и прямые взаиморасчеты с каждым производителем в рамках одного заказа.</p>
 
@@ -703,7 +703,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Агроклассифайд.jpg`},{id:20,category:`Industrial IoT / AI`,title:`Интеллектуальный программно-аппаратный комплекс (ПАК) промышленной маркировки`,description:`Сквозная автоматизация производства: от заказа кодов до ввода в оборот через AI и машинное зрение`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Агроклассифайд.jpg`,imageList:`/neuro-landing/projects_image/Агроклассифайд 1x1.jpg`},{id:20,category:`Industrial IoT / AI`,title:`Интеллектуальный программно-аппаратный комплекс (ПАК) промышленной маркировки`,description:`Сквозная автоматизация производства: от заказа кодов до ввода в оборот через AI и машинное зрение`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка и внедрение отказоустойчивой системы промышленного интернета вещей (IIoT) для полной автоматизации процесса обязательной маркировки продукции (Честный ЗНАК и аналоги). Комплекс объединяет серверную логику, шкафы управления на линиях и нейросетевой контроль качества.</p>
 
@@ -761,7 +761,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Мобильный оператор.jpg`},{id:21,category:`LegalTech / AI`,title:`Интеллектуальная экосистема для юристов и адвокатов`,description:`Автоматизированное рабочее место (АРМ) юриста с ИИ-ассистентом и интеграцией ЕСИА`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Мобильный оператор.jpg`,imageList:`/neuro-landing/projects_image/Технологический аудит Маркетплейсов 1x1.jpg`},{id:21,category:`LegalTech / AI`,title:`Интеллектуальная экосистема для юристов и адвокатов`,description:`Автоматизированное рабочее место (АРМ) юриста с ИИ-ассистентом и интеграцией ЕСИА`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка закрытого профессионального портала для юридического сообщества. Платформа берет на себя всю рутину: от проверки личности адвоката до автоматического отслеживания судебных заседаний и помощи ИИ в подготовке документов.</p>
 
@@ -806,7 +806,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Юристы.jpg`},{id:22,category:`Highload / Logistics`,title:`Технологический аудит и оптимизация логистики Tier-1 Маркетплейса`,description:`Глубокая модернизация процессов хранения, реверсивной логистики и системы арбитража`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Юристы.jpg`,imageList:`/neuro-landing/projects_image/Юристы 1x1.jpg`},{id:22,category:`Highload / Logistics`,title:`Технологический аудит и оптимизация логистики Tier-1 Маркетплейса`,description:`Глубокая модернизация процессов хранения, реверсивной логистики и системы арбитража`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Комплексный аудит высоконагруженной системы (Highload) с последующей разработкой и внедрением модулей оптимизации. Фокус на сокращении «плеча» доставки и автоматизации обработки возвратов.</p>
 
@@ -850,7 +850,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Технологический аудит Маркетплейсов.jpg`},{id:23,category:`FinTech / E-commerce`,title:`B2B-платформа бонусная система взаиморасчетов`,description:`Цифровая бонусная система с интеграцией ГИС и сложным биллингом`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Технологический аудит Маркетплейсов.jpg`,imageList:`/neuro-landing/projects_image/Технологический аудит Маркетплейсов 1x1.jpg`},{id:23,category:`FinTech / E-commerce`,title:`B2B-платформа бонусная система взаиморасчетов`,description:`Цифровая бонусная система с интеграцией ГИС и сложным биллингом`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка высоконагруженного мобильного приложения и бэкенда для корпоративного сектора. Система позволяет компаниям покупать и продавать товары/услуги, используя гибридную модель оплаты (деньги + бонусы), с автоматической верификацией контрагентов через государственные системы.</p>
 
@@ -894,7 +894,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Система лояльности.jpg`},{id:24,category:`B2B / FinTech`,title:`Платформа многостороннего бартера для B2B`,description:`Экосистема безденежных расчетов и взаимного обмена услугами`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Система лояльности.jpg`,imageList:`/neuro-landing/projects_image/Бартер 1x1.jpg`},{id:24,category:`B2B / FinTech`,title:`Платформа многостороннего бартера для B2B`,description:`Экосистема безденежных расчетов и взаимного обмена услугами`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка интеллектуальной системы для обмена товарами и услугами между предпринимателями без использования живых денег. Главная сложность — реализация алгоритма «кольцевого обмена», где в сделке могут участвовать 3, 5 или 10 компаний одновременно.</p>
 
@@ -935,7 +935,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Бартер.jpg`},{id:25,category:`PropTech / IoT`,title:`SkladNet — Цифровая платформа для рынка Self-Storage`,description:`Умное управление складами индивидуального хранения и кладовыми`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Бартер.jpg`,imageList:`/neuro-landing/projects_image/Бартер 1x1.jpg`},{id:25,category:`PropTech / IoT`,title:`SkladNet — Цифровая платформа для рынка Self-Storage`,description:`Умное управление складами индивидуального хранения и кладовыми`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка Fullstack-платформы для автоматизации складов хранения (Self-Storage). Проект объединяет мобильный маркетплейс и сложную инженерную часть: управление электронными замками без участия персонала.</p>
 
@@ -976,7 +976,7 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Кладовки.png`},{id:26,category:`IoT / Shared Economy`,title:`ParkinGo — «Airbnb» в мире парковочных пространств`,description:`Цифровая платформа для шеринга частных и коммерческих парковок`,fullDescription:`
+  `,image:`/neuro-landing/projects_image/Кладовки.png`,imageList:`/neuro-landing/projects_image/Кладовки 1x1.png`},{id:26,category:`IoT / Shared Economy`,title:`ParkinGo — «Airbnb» в мире парковочных пространств`,description:`Цифровая платформа для шеринга частных и коммерческих парковок`,fullDescription:`
     <div class="modal-case">
       <p class="case-spec"><strong>Специфика:</strong> Разработка экосистемы, которая превращает простаивающее парковочное место в актив. Это не просто мобильное приложение, а комплексное решение с управлением реальным оборудованием (шлагбаумами и воротами) через смартфон.</p>
 
@@ -1017,11 +1017,11 @@
         </ul>
       </div>
     </div>
-  `,image:`/neuro-landing/projects_image/Парковки.png`}],t=()=>window.innerWidth<=480?2:4,n=0,r=0,i=document.getElementById(`project-row-0`),a=document.getElementById(`pag-dots-row-0`),o=document.getElementById(`prev-btn-row-0`),s=document.getElementById(`next-btn-row-0`),c=document.getElementById(`project-row-1`),l=document.getElementById(`pag-dots-row-1`),u=document.getElementById(`prev-btn-row-1`),d=document.getElementById(`next-btn-row-1`),f=document.getElementById(`menu-open`),p=document.getElementById(`menu-close`),m=document.getElementById(`mobile-menu`),h=document.querySelector(`.meeting-btn`),g=document.getElementById(`project-modal`),_=g.querySelector(`.modal__close`),v=g.querySelector(`.modal__overlay`),y=e=>{let t=document.body;e?t.classList.add(`modal-open`):t.classList.remove(`modal-open`)};function b(t){let n=e.find(e=>e.id===t);if(!n)return;let r=document.getElementById(`modal-title`),i=document.getElementById(`modal-img`),a=document.getElementById(`modal-desc-full`),o=document.getElementById(`modal-features`);r&&(r.innerText=n.title),i&&(i.src=n.image),a&&(n.fullDescription&&n.fullDescription.trim()!==``?a.innerHTML=n.fullDescription:a.innerText=n.description),o&&(o.innerHTML=``),g.classList.add(`active`),y(!0),requestAnimationFrame(()=>{let e=g.querySelector(`.modal__info-side`),t=g.querySelector(`.modal__body`);e&&(e.scrollTop=0),t&&(t.scrollTop=0)})}var x=()=>{window.innerWidth<=768?(g.classList.add(`closing`),setTimeout(()=>{g.classList.remove(`active`),g.classList.remove(`closing`),y(!1)},300)):(g.classList.remove(`active`),y(!1))};_?.addEventListener(`click`,x),v?.addEventListener(`click`,x);function S(n,r,i){n.innerHTML=``;let a=t(),o=a*2*r+i*a,s=o+a;e.slice(o,s).forEach(e=>{let t=`
+  `,image:`/neuro-landing/projects_image/Парковки.png`,imageList:`/neuro-landing/projects_image/Парковки 1x1.png`}],t=()=>window.innerWidth<=480?2:4,n=0,r=0,i=document.getElementById(`project-row-0`),a=document.getElementById(`pag-dots-row-0`),o=document.getElementById(`prev-btn-row-0`),s=document.getElementById(`next-btn-row-0`),c=document.getElementById(`project-row-1`),l=document.getElementById(`pag-dots-row-1`),u=document.getElementById(`prev-btn-row-1`),d=document.getElementById(`next-btn-row-1`),f=document.getElementById(`menu-open`),p=document.getElementById(`menu-close`),m=document.getElementById(`mobile-menu`),h=document.querySelector(`.meeting-btn`),g=document.getElementById(`project-modal`),_=g.querySelector(`.modal__close`),v=g.querySelector(`.modal__overlay`),y=e=>{let t=document.body;e?t.classList.add(`modal-open`):t.classList.remove(`modal-open`)};function b(t){let n=e.find(e=>e.id===t);if(!n)return;let r=document.getElementById(`modal-title`),i=document.getElementById(`modal-img`),a=document.getElementById(`modal-desc-full`),o=document.getElementById(`modal-features`);r&&(r.innerText=n.title),i&&(i.src=n.image),a&&(n.fullDescription&&n.fullDescription.trim()!==``?a.innerHTML=n.fullDescription:a.innerText=n.description),o&&(o.innerHTML=``),g.classList.add(`active`),y(!0),requestAnimationFrame(()=>{let e=g.querySelector(`.modal__info-side`),t=g.querySelector(`.modal__body`);e&&(e.scrollTop=0),t&&(t.scrollTop=0)})}var x=()=>{window.innerWidth<=768?(g.classList.add(`closing`),setTimeout(()=>{g.classList.remove(`active`),g.classList.remove(`closing`),y(!1)},300)):(g.classList.remove(`active`),y(!1))};_?.addEventListener(`click`,x),v?.addEventListener(`click`,x);function S(n,r,i){n.innerHTML=``;let a=t(),o=a*2*r+i*a,s=o+a;e.slice(o,s).forEach(e=>{let t=e.imageList||e.image,r=`
       <div class="project-card" style="cursor: pointer" onclick="openProjectDetails(${e.id})">
         <div class="project-card__inner">
           <div class="project-card__image-wrapper">
-            <img src="${e.image}" alt="${e.title}">
+            <img src="${t}" alt="${e.title}">
           </div>
           <div class="project-card__info">
             <div class="project-card__text">
@@ -1030,4 +1030,4 @@
           </div>
         </div>
       </div>
-    `;n.insertAdjacentHTML(`beforeend`,t)})}window.openProjectDetails=b;function C(f,p,m,h,g){let _=t(),v=g*_,y=e.length-v,b=Math.ceil(y/(_*2));if(p&&(p.disabled=h===0),m&&(m.disabled=h>=b-1),f){f.innerHTML=``;for(let e=0;e<b;e++){let t=document.createElement(`div`);t.className=`dot ${e===h?`active`:``}`,t.onclick=()=>{g===0?(n=e,S(i,n,0),C(a,o,s,n,0)):(r=e,S(c,r,1),C(l,u,d,r,1))},f.appendChild(t)}}}S(i,n,0),S(c,r,1),C(a,o,s,n,0),C(l,u,d,r,1),o&&(o.onclick=()=>{n>0&&(n--,S(i,n,0),C(a,o,s,n,0))}),s&&(s.onclick=()=>{let r=t(),c=0*r,l=e.length-c,u=Math.ceil(l/(r*2));n<u-1&&(n++,S(i,n,0),C(a,o,s,n,0))}),u&&(u.onclick=()=>{r>0&&(r--,S(c,r,1),C(l,u,d,r,1))}),d&&(d.onclick=()=>{let n=t(),i=1*n,a=e.length-i,o=Math.ceil(a/(n*2));r<o-1&&(r++,S(c,r,1),C(l,u,d,r,1))});var w=(n,r,i,c,f)=>{let p=0,m=0,h=!1;r.addEventListener(`touchstart`,e=>{p=e.touches[0].clientX,m=e.touches[0].clientY,h=!0},{passive:!0}),r.addEventListener(`touchmove`,e=>{if(!h)return;let t=Math.abs(e.touches[0].clientX-p);t>Math.abs(e.touches[0].clientY-m)&&t>10&&e.preventDefault()},{passive:!1}),r.addEventListener(`touchend`,r=>{if(!h)return;h=!1;let m=r.changedTouches[0].clientX,g=p-m;if(Math.abs(g)<50)return;let _=t(),v=f*_,y=e.length-v,b=Math.ceil(y/(_*2)),x=i();g>0?x<b-1&&(c(x+1),S(n,x+1,f),C(f===0?a:l,f===0?o:u,f===0?s:d,x+1,f)):x>0&&(c(x-1),S(n,x-1,f),C(f===0?a:l,f===0?o:u,f===0?s:d,x-1,f))},{passive:!0})};w(i,i.parentElement,()=>n,e=>{n=e},0),w(c,c.parentElement,()=>r,e=>{r=e},1);var T;window.addEventListener(`resize`,()=>{clearTimeout(T),T=setTimeout(()=>{n=0,r=0,S(i,n,0),S(c,r,1),C(a,o,s,n,0),C(l,u,d,r,1)},200)});var E=()=>{y(!0),m?.classList.add(`active`),document.body.classList.add(`menu-open`)},D=()=>{y(!1),m?.classList.remove(`active`),document.body.classList.remove(`menu-open`)};f?.addEventListener(`click`,E),p?.addEventListener(`click`,D),h?.addEventListener(`click`,()=>{D(),document.getElementById(`contacts`)?.scrollIntoView({behavior:`smooth`})}),document.querySelectorAll(`a[href^="#"]`).forEach(e=>{e.addEventListener(`click`,t=>{t.preventDefault();let n=e.getAttribute(`href`);if(!n||n===`#`)return;let r=document.querySelector(n);r&&(D(),r.scrollIntoView({behavior:`smooth`}))})});var O=document.querySelector(`.contact-form`);O&&O.addEventListener(`submit`,e=>{e.preventDefault();let t=new FormData(O),n=Object.fromEntries(t),r=/^[^\s@]+@[^\s@]+\.[^\s@]+$/,i=n.phone.replace(/\D/g,``);if(O.querySelectorAll(`.form-input`).forEach(e=>e.classList.remove(`error`)),n.email&&!r.test(n.email)){alert(`Пожалуйста, введите корректный E-mail`);return}if(i.length<10){alert(`Номер телефона слишком короткий`);return}console.log(`Данные валидны, отправка:`,n);let a=document.getElementById(`success-modal`);a&&(a.classList.add(`active`),document.body.classList.add(`modal-open`)),O.reset()});var k=e=>{e.addEventListener(`input`,e=>{let t=e.target,n=t.value.replace(/\D/g,``);n.length>=11?n=n.slice(-10):(n.startsWith(`7`)||n.startsWith(`8`))&&(n=n.substring(1)),n=n.substring(0,10);let r=`+7`;n.length>0&&(r+=` (`+n.substring(0,3)),n.length>=4&&(r+=`) `+n.substring(3,6)),n.length>=7&&(r+=` `+n.substring(6,8)),n.length>=9&&(r+=` `+n.substring(8,10)),t.value=r}),e.addEventListener(`keydown`,e=>{let t=e.target;e.key===`Backspace`&&t.value.length<=4&&e.preventDefault()}),e.addEventListener(`focus`,()=>{e.value||=`+7 (`})},A=e=>{e.addEventListener(`input`,()=>{e.value.length>200&&(e.value=e.value.substring(0,200))})},j=document.querySelector(`.contact-form input[name="phone"]`),M=document.querySelector(`.contact-form input[name="email"]`);j&&k(j),M&&A(M);var N=document.querySelector(`.contact-form-modal input[name="phone"]`),P=document.querySelector(`.contact-form-modal input[name="email"]`);N&&k(N),P&&A(P),(()=>{let e=document.getElementById(`cookie-banner`),t=document.getElementById(`cookie-accept`);!e||!t||(localStorage.getItem(`cookieAccepted`)||setTimeout(()=>{e.classList.add(`active`)},2e3),t.addEventListener(`click`,()=>{e.classList.remove(`active`),localStorage.setItem(`cookieAccepted`,`true`)}))})();var F=e=>{let t=document.getElementById(e);t&&(t.classList.add(`active`),document.body.classList.add(`modal-open`),requestAnimationFrame(()=>{let e=t.querySelector(`.info-modal__body`);e&&(e.scrollTop=0)}))},I=e=>{e.classList.remove(`active`),document.body.classList.remove(`modal-open`)},L=document.getElementById(`privacy-link`),R=document.getElementById(`privacy-modal`);L?.addEventListener(`click`,e=>{e.preventDefault(),F(`privacy-modal`)});var z=document.getElementById(`terms-link`),B=document.getElementById(`terms-modal`);z?.addEventListener(`click`,e=>{e.preventDefault(),F(`terms-modal`)}),document.getElementById(`cookie-settings-link`)?.addEventListener(`click`,e=>{e.preventDefault(),localStorage.removeItem(`cookieAccepted`),document.getElementById(`cookie-banner`)?.classList.add(`active`)}),[R,B].forEach(e=>{if(!e)return;let t=e.querySelector(`.modal__close`),n=e.querySelector(`.modal__overlay`);t?.addEventListener(`click`,()=>I(e)),n?.addEventListener(`click`,()=>I(e))});var V=document.getElementById(`contact-modal`),H=document.querySelector(`.hero-scroll-hint`),U=V?.querySelector(`.modal__close`),W=V?.querySelector(`.modal__overlay`),G=()=>{V&&(V.classList.add(`active`),document.body.classList.add(`modal-open`),requestAnimationFrame(()=>{let e=V.querySelector(`.contact-modal__body`);e&&(e.scrollTop=0)}))},K=()=>{V&&(V.classList.remove(`active`),document.body.classList.remove(`modal-open`))};H?.addEventListener(`click`,G),U?.addEventListener(`click`,K),W?.addEventListener(`click`,K);var q=document.querySelector(`.contact-form-modal`);q&&q.addEventListener(`submit`,e=>{e.preventDefault();let t=new FormData(q),n=Object.fromEntries(t),r=/^[^\s@]+@[^\s@]+\.[^\s@]+$/,i=n.phone.replace(/\D/g,``);if(q.querySelectorAll(`.form-input`).forEach(e=>e.classList.remove(`error`)),n.email&&!r.test(n.email)){alert(`Пожалуйста, введите корректный E-mail`);return}if(i.length<10){alert(`Номер телефона слишком короткий`);return}console.log(`Данные валидны, отправка:`,n),K();let a=document.getElementById(`success-modal`);a&&(a.classList.add(`active`),document.body.classList.add(`modal-open`)),q.reset()});var J=document.getElementById(`success-modal`),Y=J?.querySelector(`.modal__close`),X=J?.querySelector(`.modal__overlay`),Z=()=>{J&&(J.classList.remove(`active`),document.body.classList.remove(`modal-open`))};Y?.addEventListener(`click`,Z),X?.addEventListener(`click`,Z);
+    `;n.insertAdjacentHTML(`beforeend`,r)})}window.openProjectDetails=b;function C(f,p,m,h,g){let _=t(),v=g*_,y=e.length-v,b=Math.ceil(y/(_*2));if(p&&(p.disabled=h===0),m&&(m.disabled=h>=b-1),f){f.innerHTML=``;for(let e=0;e<b;e++){let t=document.createElement(`div`);t.className=`dot ${e===h?`active`:``}`,t.onclick=()=>{g===0?(n=e,S(i,n,0),C(a,o,s,n,0)):(r=e,S(c,r,1),C(l,u,d,r,1))},f.appendChild(t)}}}S(i,n,0),S(c,r,1),C(a,o,s,n,0),C(l,u,d,r,1),o&&(o.onclick=()=>{n>0&&(n--,S(i,n,0),C(a,o,s,n,0))}),s&&(s.onclick=()=>{let r=t(),c=0*r,l=e.length-c,u=Math.ceil(l/(r*2));n<u-1&&(n++,S(i,n,0),C(a,o,s,n,0))}),u&&(u.onclick=()=>{r>0&&(r--,S(c,r,1),C(l,u,d,r,1))}),d&&(d.onclick=()=>{let n=t(),i=1*n,a=e.length-i,o=Math.ceil(a/(n*2));r<o-1&&(r++,S(c,r,1),C(l,u,d,r,1))});var w=(n,r,i,c,f)=>{let p=0,m=0,h=!1;r.addEventListener(`touchstart`,e=>{p=e.touches[0].clientX,m=e.touches[0].clientY,h=!0},{passive:!0}),r.addEventListener(`touchmove`,e=>{if(!h)return;let t=Math.abs(e.touches[0].clientX-p);t>Math.abs(e.touches[0].clientY-m)&&t>10&&e.preventDefault()},{passive:!1}),r.addEventListener(`touchend`,r=>{if(!h)return;h=!1;let m=r.changedTouches[0].clientX,g=p-m;if(Math.abs(g)<50)return;let _=t(),v=f*_,y=e.length-v,b=Math.ceil(y/(_*2)),x=i();g>0?x<b-1&&(c(x+1),S(n,x+1,f),C(f===0?a:l,f===0?o:u,f===0?s:d,x+1,f)):x>0&&(c(x-1),S(n,x-1,f),C(f===0?a:l,f===0?o:u,f===0?s:d,x-1,f))},{passive:!0})};w(i,i.parentElement,()=>n,e=>{n=e},0),w(c,c.parentElement,()=>r,e=>{r=e},1);var T;window.addEventListener(`resize`,()=>{clearTimeout(T),T=setTimeout(()=>{n=0,r=0,S(i,n,0),S(c,r,1),C(a,o,s,n,0),C(l,u,d,r,1)},200)});var E=()=>{y(!0),m?.classList.add(`active`),document.body.classList.add(`menu-open`)},D=()=>{y(!1),m?.classList.remove(`active`),document.body.classList.remove(`menu-open`)};f?.addEventListener(`click`,E),p?.addEventListener(`click`,D),h?.addEventListener(`click`,()=>{D(),document.getElementById(`contacts`)?.scrollIntoView({behavior:`smooth`})}),document.querySelectorAll(`a[href^="#"]`).forEach(e=>{e.addEventListener(`click`,t=>{t.preventDefault();let n=e.getAttribute(`href`);if(!n||n===`#`)return;let r=document.querySelector(n);r&&(D(),r.scrollIntoView({behavior:`smooth`}))})});var O=document.querySelector(`.contact-form`);O&&O.addEventListener(`submit`,e=>{e.preventDefault();let t=new FormData(O),n=Object.fromEntries(t),r=/^[^\s@]+@[^\s@]+\.[^\s@]+$/,i=n.phone.replace(/\D/g,``);if(O.querySelectorAll(`.form-input`).forEach(e=>e.classList.remove(`error`)),n.email&&!r.test(n.email)){alert(`Пожалуйста, введите корректный E-mail`);return}if(i.length<10){alert(`Номер телефона слишком короткий`);return}console.log(`Данные валидны, отправка:`,n);let a=document.getElementById(`success-modal`);a&&(a.classList.add(`active`),document.body.classList.add(`modal-open`)),O.reset()});var k=e=>{e.addEventListener(`input`,e=>{let t=e.target,n=t.value.replace(/\D/g,``);n.length>=11?n=n.slice(-10):(n.startsWith(`7`)||n.startsWith(`8`))&&(n=n.substring(1)),n=n.substring(0,10);let r=`+7`;n.length>0&&(r+=` (`+n.substring(0,3)),n.length>=4&&(r+=`) `+n.substring(3,6)),n.length>=7&&(r+=` `+n.substring(6,8)),n.length>=9&&(r+=` `+n.substring(8,10)),t.value=r}),e.addEventListener(`keydown`,e=>{let t=e.target;e.key===`Backspace`&&t.value.length<=4&&e.preventDefault()}),e.addEventListener(`focus`,()=>{e.value||=`+7 (`})},A=e=>{e.addEventListener(`input`,()=>{e.value.length>200&&(e.value=e.value.substring(0,200))})},j=document.querySelector(`.contact-form input[name="phone"]`),M=document.querySelector(`.contact-form input[name="email"]`);j&&k(j),M&&A(M);var N=document.querySelector(`.contact-form-modal input[name="phone"]`),P=document.querySelector(`.contact-form-modal input[name="email"]`);N&&k(N),P&&A(P),(()=>{let e=document.getElementById(`cookie-banner`),t=document.getElementById(`cookie-accept`);!e||!t||(localStorage.getItem(`cookieAccepted`)||setTimeout(()=>{e.classList.add(`active`)},2e3),t.addEventListener(`click`,()=>{e.classList.remove(`active`),localStorage.setItem(`cookieAccepted`,`true`)}))})();var F=e=>{let t=document.getElementById(e);t&&(t.classList.add(`active`),document.body.classList.add(`modal-open`),requestAnimationFrame(()=>{let e=t.querySelector(`.info-modal__body`);e&&(e.scrollTop=0)}))},I=e=>{e.classList.remove(`active`),document.body.classList.remove(`modal-open`)},L=document.getElementById(`privacy-link`),R=document.getElementById(`privacy-modal`);L?.addEventListener(`click`,e=>{e.preventDefault(),F(`privacy-modal`)});var z=document.getElementById(`terms-link`),B=document.getElementById(`terms-modal`);z?.addEventListener(`click`,e=>{e.preventDefault(),F(`terms-modal`)}),document.getElementById(`cookie-settings-link`)?.addEventListener(`click`,e=>{e.preventDefault(),localStorage.removeItem(`cookieAccepted`),document.getElementById(`cookie-banner`)?.classList.add(`active`)}),[R,B].forEach(e=>{if(!e)return;let t=e.querySelector(`.modal__close`),n=e.querySelector(`.modal__overlay`);t?.addEventListener(`click`,()=>I(e)),n?.addEventListener(`click`,()=>I(e))});var V=document.getElementById(`contact-modal`),H=document.querySelector(`.hero-scroll-hint`),U=V?.querySelector(`.modal__close`),W=V?.querySelector(`.modal__overlay`),G=()=>{V&&(V.classList.add(`active`),document.body.classList.add(`modal-open`),requestAnimationFrame(()=>{let e=V.querySelector(`.contact-modal__body`);e&&(e.scrollTop=0)}))},K=()=>{V&&(V.classList.remove(`active`),document.body.classList.remove(`modal-open`))};H?.addEventListener(`click`,G),U?.addEventListener(`click`,K),W?.addEventListener(`click`,K);var q=document.querySelector(`.contact-form-modal`);q&&q.addEventListener(`submit`,e=>{e.preventDefault();let t=new FormData(q),n=Object.fromEntries(t),r=/^[^\s@]+@[^\s@]+\.[^\s@]+$/,i=n.phone.replace(/\D/g,``);if(q.querySelectorAll(`.form-input`).forEach(e=>e.classList.remove(`error`)),n.email&&!r.test(n.email)){alert(`Пожалуйста, введите корректный E-mail`);return}if(i.length<10){alert(`Номер телефона слишком короткий`);return}console.log(`Данные валидны, отправка:`,n),K();let a=document.getElementById(`success-modal`);a&&(a.classList.add(`active`),document.body.classList.add(`modal-open`)),q.reset()});var J=document.getElementById(`success-modal`),Y=J?.querySelector(`.modal__close`),X=J?.querySelector(`.modal__overlay`),Z=()=>{J&&(J.classList.remove(`active`),document.body.classList.remove(`modal-open`))};Y?.addEventListener(`click`,Z),X?.addEventListener(`click`,Z);
