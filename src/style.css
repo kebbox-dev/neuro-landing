@@ -1089,7 +1089,7 @@ body.menu-open {
 
   .hero-scroll-hint {
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-top: 20px;
   }
 
