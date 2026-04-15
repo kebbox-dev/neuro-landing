@@ -185,8 +185,11 @@ body.menu-open .mobile-menu {
   display: flex;
   align-items: center;
   gap: 15px;
-  cursor: pointer;
   font-size: 0.9rem;
+}
+
+.hero-scroll-hint > .arrow-circle {
+  cursor: pointer;
 }
 
 .arrow-circle {
@@ -200,6 +203,22 @@ body.menu-open .mobile-menu {
   justify-content: center;
   font-size: 1.2rem;
   font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.arrow-circle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.4);
+}
+
+/* Кнопка Telegram */
+.telegram-btn {
+  background-color: #2AABEE;
+  color: #fff;
+}
+
+.telegram-btn:hover {
+  box-shadow: 0 0 15px rgba(42, 171, 238, 0.5);
 }
 
 /* MAIN CONTENT (DROWER) */
@@ -661,27 +680,33 @@ body.menu-open .mobile-menu {
 /* Стили для кнопки */
 .form-footer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
   margin-top: 60px;
 }
 
 .submit-btn {
   background: #0DFFF7; /* Твой цвет кнопки */
   color: #0A0A0A;      /* Твой цвет текста */
-  
+
   border: none;
   border-radius: 20px; /* Скругление как на картинке */
   padding: 20px 60px;
-  
+
   font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 1.6px;
   text-transform: uppercase;
-  
+
   cursor: pointer;
   transition: transform 0.2s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .submit-btn:hover {
@@ -690,6 +715,17 @@ body.menu-open .mobile-menu {
 
 .submit-btn:active {
   transform: translateY(0);
+}
+
+/* Кнопка Telegram в форме */
+.submit-btn--telegram {
+  background: #2AABEE;
+  color: #fff;
+}
+
+.submit-btn--telegram:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(42, 171, 238, 0.35);
 }
 
 /* Адаптив для мобилок */
@@ -1263,16 +1299,17 @@ body.menu-open {
   }
 
   .submit-btn {
-  font-family: 'Inter', sans-serif;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-  
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding: 16px 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    white-space: nowrap;
+  }
 }
 
 

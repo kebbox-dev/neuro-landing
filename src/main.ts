@@ -1,4 +1,6 @@
 import { projectsData } from './data/projects'
+import { sendToTelegram } from './telegram'
+import type { FormData as TGFormData } from './telegram'
 
 // --- КОНСТАНТЫ И ПЕРЕМЕННЫЕ ---
 const getProjectsPerPage = () => window.innerWidth <= 480 ? 2 : 4;
@@ -379,7 +381,7 @@ allLinks.forEach(link => {
 const contactForm = document.querySelector('.contact-form') as HTMLFormElement;
 
 if (contactForm) {
-  contactForm.addEventListener('submit', (e) => {
+  contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const formData = new FormData(contactForm);
@@ -409,14 +411,27 @@ if (contactForm) {
     // Если всё ок — отправляем
     console.log('Данные валидны, отправка:', data);
 
-    // Показываем модальное окно успеха
-    const successModal = document.getElementById('success-modal');
-    if (successModal) {
-      successModal.classList.add('active');
-      document.body.classList.add('modal-open');
-    }
+    // Отправляем в Telegram
+    const tgData: TGFormData = {
+      name: data.name as string,
+      company: data.company as string,
+      phone: data.phone as string,
+      email: data.email as string,
+    };
 
-    contactForm.reset();
+    const sent = await sendToTelegram(tgData);
+
+    if (sent) {
+      // Показываем модальное окно успеха
+      const successModal = document.getElementById('success-modal');
+      if (successModal) {
+        successModal.classList.add('active');
+        document.body.classList.add('modal-open');
+      }
+      contactForm.reset();
+    } else {
+      alert('Произошла ошибка при отправке. Пожалуйста, попробуйте ещё раз.');
+    }
   });
 }
 
@@ -558,7 +573,7 @@ cookieSettingsLink?.addEventListener('click', (e) => {
 // --- МОДАЛЬНОЕ ОКНО АНКЕТЫ (иконка телефона) ---
 
 const contactModal = document.getElementById('contact-modal') as HTMLElement;
-const phoneIcon = document.querySelector('.hero-scroll-hint');
+const phoneIconBtn = document.getElementById('phone-icon-btn');
 const contactModalClose = contactModal?.querySelector('.modal__close');
 const contactModalOverlay = contactModal?.querySelector('.modal__overlay');
 
@@ -579,14 +594,14 @@ const closeContactModal = () => {
   document.body.classList.remove('modal-open');
 };
 
-phoneIcon?.addEventListener('click', openContactModal);
+phoneIconBtn?.addEventListener('click', openContactModal);
 contactModalClose?.addEventListener('click', closeContactModal);
 contactModalOverlay?.addEventListener('click', closeContactModal);
 
 // Обработка отправки формы в модальном окне
 const contactFormModal = document.querySelector('.contact-form-modal') as HTMLFormElement;
 if (contactFormModal) {
-  contactFormModal.addEventListener('submit', (e) => {
+  contactFormModal.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const formData = new FormData(contactFormModal);
@@ -610,16 +625,29 @@ if (contactFormModal) {
 
     console.log('Данные валидны, отправка:', data);
 
-    // Закрываем анкету и показываем успех
-    closeContactModal();
+    // Отправляем в Telegram
+    const tgData: TGFormData = {
+      name: data.name as string,
+      company: data.company as string,
+      phone: data.phone as string,
+      email: data.email as string,
+    };
 
-    const successModal = document.getElementById('success-modal');
-    if (successModal) {
-      successModal.classList.add('active');
-      document.body.classList.add('modal-open');
+    const sent = await sendToTelegram(tgData);
+
+    if (sent) {
+      // Закрываем анкету и показываем успех
+      closeContactModal();
+
+      const successModal = document.getElementById('success-modal');
+      if (successModal) {
+        successModal.classList.add('active');
+        document.body.classList.add('modal-open');
+      }
+      contactFormModal.reset();
+    } else {
+      alert('Произошла ошибка при отправке. Пожалуйста, попробуйте ещё раз.');
     }
-
-    contactFormModal.reset();
   });
 }
 
