@@ -1,9 +1,9 @@
-// Конфигурация Telegram бота
-// Переменные окружения задаются в файле .env (не коммитить в git!)
-const TELEGRAM_BOT_TOKEN = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
-const TELEGRAM_CHAT_ID = import.meta.env.VITE_TELEGRAM_CHAT_ID;
+// Конфигурация отправки заявок
+// Заявки отправляются на серверный прокси (send.php), токен НЕ хранится в клиентском JS
+// VITE_API_URL задаётся через .env (например: VITE_API_URL=http://localhost:3001/send.php)
+const API_URL = import.meta.env.VITE_API_URL || './send.php';
 
-export interface FormData {
+export type FormData = {
   name: string;
   company?: string;
   phone: string;
@@ -11,42 +11,41 @@ export interface FormData {
 }
 
 /**
- * Отправляет данные формы в Telegram бот
+ * Отправляет данные формы через серверный прокси в Telegram
  */
 export async function sendToTelegram(data: FormData): Promise<boolean> {
-  const text = `
-🔔 <b>Новая заявка!</b>
-
-👤 <b>Имя:</b> ${data.name}
-🏢 <b>Компания:</b> ${data.company || 'Не указана'}
-📞 <b>Телефон:</b> ${data.phone}
-📧 <b>E-mail:</b> ${data.email || 'Не указан'}
-⏰ <b>Время:</b> ${new Date().toLocaleString('ru-RU')}
-  `.trim();
-
-  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
-
   try {
-    const response = await fetch(url, {
+    const response = await fetch(API_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        chat_id: TELEGRAM_CHAT_ID,
-        text: text,
-        parse_mode: 'html',
+        name: data.name,
+        company: data.company || '',
+        phone: data.phone,
+        email: data.email || '',
       }),
     });
 
+    const rawText = await response.text();
+
     if (!response.ok) {
-      console.error('Telegram API error:', response.status, await response.text());
+      console.error('Server error:', response.status, rawText);
       return false;
     }
 
-    return true;
+    let result;
+    try {
+      result = JSON.parse(rawText);
+    } catch {
+      console.error('Non-JSON response:', rawText.substring(0, 500));
+      return false;
+    }
+
+    return result.success === true;
   } catch (error) {
-    console.error('Failed to send to Telegram:', error);
+    console.error('Failed to send form:', error);
     return false;
   }
 }
