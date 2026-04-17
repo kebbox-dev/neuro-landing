@@ -51,8 +51,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Ритейл бытовой техники.jpg",
-    imageList: "/neuro-landing/projects_image/Ритейл бытовой техники 1x1.jpg"
+    image: "/projects_image/Ритейл бытовой техники.jpg",
+    imageList: "/projects_image/Ритейл бытовой техники 1x1.jpg"
   },
   {
     id: 2,
@@ -98,8 +98,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Девелопер застройщик.jpg",
-    imageList: "/neuro-landing/projects_image/Девелопер застройщик 1x1.jpg"
+    image: "/projects_image/Девелопер застройщик.jpg",
+    imageList: "/projects_image/Девелопер застройщик 1x1.jpg"
   },
   {
     id: 3,
@@ -143,8 +143,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Интеллектуальные дашборды.jpg",
-    imageList: "/neuro-landing/projects_image/Интеллектуальные дашборды 1x1.jpg"
+    image: "/projects_image/Интеллектуальные дашборды.jpg",
+    imageList: "/projects_image/Интеллектуальные дашборды 1x1.jpg"
   },
   {
     id: 4,
@@ -188,8 +188,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Инвестиционный модуль.jpg",
-    imageList: "/neuro-landing/projects_image/Инвестиционный модуль 1x1.jpg"
+    image: "/projects_image/Инвестиционный модуль.jpg",
+    imageList: "/projects_image/Инвестиционный модуль 1x1.jpg"
   },
   {
     id: 5,
@@ -229,8 +229,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Мессенджер.jpg",
-    imageList: "/neuro-landing/projects_image/Мессенджер 1x1.jpg"
+    image: "/projects_image/Мессенджер.jpg",
+    imageList: "/projects_image/Мессенджер 1x1.jpg"
   },
   {
     id: 6,
@@ -269,8 +269,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Интеллектуальный агрегатор доставки.jpg",
-    imageList: "/neuro-landing/projects_image/Интеллектуальный агрегатор доставки 1x1.jpg"
+    image: "/projects_image/Интеллектуальный агрегатор доставки.jpg",
+    imageList: "/projects_image/Интеллектуальный агрегатор доставки 1x1.jpg"
   },
   {
     id: 7,
@@ -309,8 +309,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Сервис выездного обслуживания.jpg",
-    imageList: "/neuro-landing/projects_image/Сервис выездного обслуживания 1x1.jpg"
+    image: "/projects_image/Сервис выездного обслуживания.jpg",
+    imageList: "/projects_image/Сервис выездного обслуживания 1x1.jpg"
   },
   {
     id: 8,
@@ -360,8 +360,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Медицина Тревел.jpg",
-    imageList: "/neuro-landing/projects_image/Медицина Тревел 1x1.jpg"
+    image: "/projects_image/Медицина Тревел.jpg",
+    imageList: "/projects_image/Медицина Тревел 1x1.jpg"
   },
 
   // СТРАНИЦА 2
@@ -411,8 +411,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Блокчейн для стримеров.jpg",
-    imageList: "/neuro-landing/projects_image/Блокчейн для стримеров 1x1.jpg"
+    image: "/projects_image/Блокчейн для стримеров.jpg",
+    imageList: "/projects_image/Блокчейн для стримеров 1x1.jpg"
   },
   {
     id: 10,
@@ -457,8 +457,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Грайн.jpg",
-    imageList: "/neuro-landing/projects_image/Грайн 1x1.jpg"
+    image: "/projects_image/Грайн.jpg",
+    imageList: "/projects_image/Грайн 1x1.jpg"
   },
   {
     id: 11,
@@ -503,8 +503,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Беринг.jpg",
-    imageList: "/neuro-landing/projects_image/Беринг 1x1.jpg"
+    image: "/projects_image/Беринг.jpg",
+    imageList: "/projects_image/Беринг 1x1.jpg"
   },
   {
     id: 12,
@@ -549,8 +549,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Мебельная фабрика.jpg",
-    imageList: "/neuro-landing/projects_image/Мебельная фабрика 1x1.jpg"
+    image: "/projects_image/Мебельная фабрика.jpg",
+    imageList: "/projects_image/Мебельная фабрика 1x1.jpg"
   },
   {
     id: 13,
@@ -595,8 +595,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Капитальный ремонт.jpg",
-    imageList: "/neuro-landing/projects_image/Капитальный ремонт 1x1.jpg"
+    image: "/projects_image/Капитальный ремонт.jpg",
+    imageList: "/projects_image/Капитальный ремонт 1x1.jpg"
   },
   {
     id: 14,
@@ -641,8 +641,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Минцифры РБ.jpg",
-    imageList: "/neuro-landing/projects_image/Минцифры РБ 1x1.jpg"
+    image: "/projects_image/Минцифры РБ.jpg",
+    imageList: "/projects_image/Минцифры РБ 1x1.jpg"
   },
   {
     id: 15,
@@ -687,8 +687,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/ЦУР.jpg",
-    imageList: "/neuro-landing/projects_image/Мобильный оператор 1x1.jpg"
+    image: "/projects_image/ЦУР.jpg",
+    imageList: "/projects_image/Мобильный оператор 1x1.jpg"
   },
   {
     id: 16,
@@ -733,8 +733,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/ЦУР.jpg",
-    imageList: "/neuro-landing/projects_image/ЦУР 1x1.jpg"
+    image: "/projects_image/ЦУР.jpg",
+    imageList: "/projects_image/ЦУР 1x1.jpg"
   },
   {
     id: 17,
@@ -779,8 +779,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Интерактивные стенды.jpg",
-    imageList: "/neuro-landing/projects_image/Интерактивные стенды 1x1.jpg"
+    image: "/projects_image/Интерактивные стенды.jpg",
+    imageList: "/projects_image/Интерактивные стенды 1x1.jpg"
   },
   {
     id: 18,
@@ -825,8 +825,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Мобильный оператор.jpg",
-    imageList: "/neuro-landing/projects_image/Мобильный оператор 1x1.jpg"
+    image: "/projects_image/Мобильный оператор.jpg",
+    imageList: "/projects_image/Мобильный оператор 1x1.jpg"
   },
   {
     id: 19,
@@ -877,8 +877,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Агроклассифайд.jpg",
-    imageList: "/neuro-landing/projects_image/Агроклассифайд 1x1.jpg"
+    image: "/projects_image/Агроклассифайд.jpg",
+    imageList: "/projects_image/Агроклассифайд 1x1.jpg"
   },
   {
     id: 20,
@@ -944,8 +944,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Мобильный оператор.jpg",
-    imageList: "/neuro-landing/projects_image/Технологический аудит Маркетплейсов 1x1.jpg"
+    image: "/projects_image/Мобильный оператор.jpg",
+    imageList: "/projects_image/Технологический аудит Маркетплейсов 1x1.jpg"
   },
   {
     id: 21,
@@ -998,8 +998,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Юристы.jpg",
-    imageList: "/neuro-landing/projects_image/Юристы 1x1.jpg"
+    image: "/projects_image/Юристы.jpg",
+    imageList: "/projects_image/Юристы 1x1.jpg"
   },
   {
     id: 22,
@@ -1051,8 +1051,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Технологический аудит Маркетплейсов.jpg",
-    imageList: "/neuro-landing/projects_image/Технологический аудит Маркетплейсов 1x1.jpg"
+    image: "/projects_image/Технологический аудит Маркетплейсов.jpg",
+    imageList: "/projects_image/Технологический аудит Маркетплейсов 1x1.jpg"
   },
   {
     id: 23,
@@ -1106,8 +1106,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Sys.jpg",
-    imageList: "/neuro-landing/projects_image/Sys 1x1.jpg"
+    image: "/projects_image/Sys.jpg",
+    imageList: "/projects_image/Sys 1x1.jpg"
   },
   {
     id: 24,
@@ -1156,8 +1156,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Бартер.jpg",
-    imageList: "/neuro-landing/projects_image/Бартер 1x1.jpg"
+    image: "/projects_image/Бартер.jpg",
+    imageList: "/projects_image/Бартер 1x1.jpg"
   },
   {
     id: 25,
@@ -1206,8 +1206,8 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Кладовки.png",
-    imageList: "/neuro-landing/projects_image/Кладовки 1x1.png"
+    image: "/projects_image/Кладовки.png",
+    imageList: "/projects_image/Кладовки 1x1.png"
   },
   {
     id: 26,
@@ -1256,7 +1256,7 @@ export const projectsData: ProjectItem[] = [
       </div>
     </div>
   `,
-    image: "/neuro-landing/projects_image/Парковки.png",
-    imageList: "/neuro-landing/projects_image/Парковки 1x1.png"
+    image: "/projects_image/Парковки.png",
+    imageList: "/projects_image/Парковки 1x1.png"
   }
 ];

@@ -69,22 +69,28 @@ $htmlText = "🔔 <b>Новая заявка!</b>\n\n"
     . "📧 <b>E-mail:</b> " . htmlspecialchars($email) . "\n"
     . "⏰ <b>Время:</b> " . date('d.m.Y, H:i:s');
 
-$ch = curl_init("https://api.telegram.org/bot{$botToken}/sendMessage");
+$ch = curl_init("https://telegram.anoxx2602.workers.dev/");
+
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
     'chat_id'    => $chatId,
     'text'       => $htmlText,
     'parse_mode' => 'HTML',
 ]));
-curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    'Content-Type: application/json',
+    'x-api-key: P16BMEQwnk'
+]);
+
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
 $response = curl_exec($ch);
 $curlErr  = curl_error($ch);
 $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-unset($ch);
+
+curl_close($ch);
 
 if ($curlErr) {
     error_log("send.php: curl error: {$curlErr}");
