@@ -183,9 +183,37 @@ body.menu-open .mobile-menu {
 
 .hero-scroll-hint {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 15px;
-  font-size: 0.9rem;
+  
+  position: fixed;
+  z-index: 99999 !important; /* Увеличил на всякий случай */
+  
+  /* Десктоп */
+  right: 30px; 
+  bottom: 60px;
+  left: auto; /* Явно отменяем позиционирование слева */
+  width: auto; /* Важно: ширина только по контенту */
+}
+
+/* Настройки для мобильных устройств (до 768px) */
+@media (max-width: 768px) {
+  .hero-scroll-hint {
+    display: flex !important;
+    flex-direction: column !important;
+    
+    /* Сбрасываем все, что могло центрировать */
+    left: auto !important; 
+    transform: none !important; 
+    width: auto !important; /* Убираем 100%, чтобы блок не растягивался */
+    
+    /* Точное позиционирование */
+    right: 10px !important;   
+    bottom: 35px !important;
+    
+    gap: 10px;
+  }
 }
 
 .hero-scroll-hint > .arrow-circle {
@@ -680,8 +708,9 @@ body.menu-open .mobile-menu {
 /* Стили для кнопки */
 .form-footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   margin-top: 60px;
 }
@@ -735,6 +764,10 @@ body.menu-open .mobile-menu {
   }
   .contact-card {
     padding: 30px;
+  }
+  
+  .form-footer {
+    flex-direction: column;
   }
 }
 
