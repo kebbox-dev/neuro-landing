@@ -1924,3 +1924,28 @@ body.menu-open {
     row-gap: 25px;
   }
 }
+
+.telegram-btn-filled {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #24A1DE;
+  border-radius: 50%;
+  text-decoration: none;
+  /* Добавляем transform и box-shadow в список анимаций */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Эффект при наведении */
+.telegram-btn-filled:hover {
+  background-color: #208bbf;
+  transform: scale(1.1); /* Увеличение на 10% */
+  /* Синее свечение под цвет бренда */
+}
+
+/* Стили для SVG внутри */
+.telegram-btn-filled svg {
+  display: block;
+}
